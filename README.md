@@ -6,6 +6,7 @@ Projektmitglieder sind:
 - Cedi
 - Dario
 - Simone
+- Natalie
 
 ## h2
 
