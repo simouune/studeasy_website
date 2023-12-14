@@ -1,0 +1,25 @@
+body{
+    display: flex;
+}
+
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90px; /* 142.857% */
+}
+
+.block1{
+    display: flex;
+    width: 1363px;
+    padding: 50px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 25px;
+    background: #008849;
+}
