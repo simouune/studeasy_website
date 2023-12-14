@@ -4,7 +4,7 @@
     font-weight: 400;
     font-size: 16px;
     color: black;
-    font-style: normal;
+    font-style: normal; 
 }
 
 .green-button {
@@ -29,7 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0px 20px 0px;
+    padding: 30px 30px 30px 30px;
 }
 
 #logo{
@@ -107,11 +107,47 @@ nav{
 }
 
 
+/* Stil für den Block2 FREEMOVER */
+.custom-block2 {
+    width: 100%;
+    height: flex;
+    border-radius: 25px;
+    background-color: #BEF542;
+    padding: 110px; /* Innenabstand des Blocks (optional) */
+    padding-top: 40px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+/* Stil für den Titel */
+.block-title2 {
+    font-size: 48px;
+    font-family: futura;
+    font-weight: bold;
+    color: #004317;
+    margin-bottom: 10px;
+}
+
+/* Stil für den Untertitel */
+.block-subtitle2 {
+    font-size: 24px;
+    font-weight: medium;
+    color: #004317;
+    margin-bottom: 40px;
+}
+
+ /* Stil für den Text */ 
+.block-text-freemover{
+    font-size: 32px;
+    font-weight: medium;
+    color: #004317;
+
+}
+
 
 /*_______________________________________________Footer*/
 
 footer {
-     position: fixed;
      left: 0;
      bottom: 0;
      width: 100%;
