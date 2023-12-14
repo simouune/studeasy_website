@@ -107,6 +107,37 @@ nav{
 }
 
 
+/* Stil für den Block2 FREEMOVER */
+.custom-block2 {
+    width: 100%;
+    height: flex;
+    border-radius: 25px;
+    background-color: hsl(78, 90, 61);
+    padding: 110px; /* Innenabstand des Blocks (optional) */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+/* Stil für den Titel */
+.block-title2 {
+    font-size: 63px;
+    font-family: futura;
+    font-weight: bold;
+    color: #004317;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+/* Stil für den Untertitel */
+.block-subtitle2 {
+    font-size: 32px;
+    color: #004317;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+}
+
+
 
 /*_______________________________________________Footer*/
 
