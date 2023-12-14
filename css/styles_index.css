@@ -133,6 +133,7 @@ footer {
       width: 70%;
       height: 100px;
       margin: 0 auto;
+      margin-top: 50px;
       background-color: #004318;
       border-radius: 25px;
       display: flex;
@@ -143,8 +144,8 @@ footer {
  .text_newsletter {
     text-align: left;
     padding-left: 50px;
-     font-size: 24px;
-     font-weight: 800;
+     font-size: 32px;
+     font-weight: 700;
      color: white;
      flex: 1;
     
@@ -164,27 +165,38 @@ footer {
 
   .footer__links {
       display: flex;
+      width: 70%;
       justify-content: space-between;
-      padding-left: 50px;
-      padding-right: 50px;
       margin: 0 auto;
   }
 
-  .footer__links_left {
-      display:flex;
-      justify-content: space-between;
-      width: 33%;
+   a {
+    text-decoration: none;
+    font-size: 32px;
   }
 
-  .footer__links_center {
-      display: flex;
-      justify-content: space-between;
-      width: 33%;
+  .footer__links__left {
+    text-align: left;
   }
-  
-  .adresse_footer_right {
-      display: flex;
-      justify-content: space-between;
-      width: 33%;
-      text-align: right;
-  }
+
+.adresse_footer_right p {
+        text-align: right;
+        font-size: 32px;
+    }
+
+.Trennbalken {
+      width: 70%;
+     } 
+
+.icons_footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Linkliste {
+    padding: 0;
+}
