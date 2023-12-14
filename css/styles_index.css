@@ -112,31 +112,37 @@ nav{
     width: 100%;
     height: flex;
     border-radius: 25px;
-    background-color: hsl(78, 90, 61);
+    background-color: #BEF542;
     padding: 110px; /* Innenabstand des Blocks (optional) */
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 60px;
     box-sizing: border-box;
 }
 
 /* Stil für den Titel */
 .block-title2 {
-    font-size: 63px;
+    font-size: 48px;
     font-family: futura;
     font-weight: bold;
     color: #004317;
     margin-bottom: 10px;
-    padding-bottom: 40px;
 }
 
 /* Stil für den Untertitel */
 .block-subtitle2 {
-    font-size: 32px;
+    font-size: 24px;
+    font-weight: medium;
     color: #004317;
-    margin-bottom: 20px;
-    padding-bottom: 60px;
+    margin-bottom: 40px;
 }
 
+ /* Stil für den Text */ 
+.block-text-freemover{
+    font-size: 32px;
+    font-weight: medium;
+    color: #004317;
+
+}
 
 
 /*_______________________________________________Footer*/
