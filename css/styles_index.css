@@ -21,6 +21,9 @@
     font-size: 16px;
 }
 
+body{
+    padding: 30px;
+}
 
 /*_______________________________________________Header*/
 
@@ -116,6 +119,8 @@ nav{
     padding-top: 40px;
     padding-bottom: 60px;
     box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Stil für den Titel */
