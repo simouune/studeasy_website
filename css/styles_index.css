@@ -235,3 +235,16 @@ footer {
 .Linkliste {
     padding: 0;
 }
+
+.container_email {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+.pfeil {
+    background-color: black;
+}
