@@ -25,6 +25,35 @@ body{
     padding: 30px;
 }
 
+h1{
+    color: white;
+    text-align: center;
+    font-size: 63px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.oranger_titel{
+    font-size: 32px;
+    color: #CD7C46;
+
+}
+
+
 /*_______________________________________________Header*/
 
 header{
@@ -224,6 +253,7 @@ nav{
     object-fit: cover;
     border-radius: 25px;
 }
+
 
 
 /*_______________________________________________Footer*/
