@@ -22,7 +22,7 @@
 
 
 body{
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
 }
 
 h1{
@@ -62,6 +62,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 30px 30px 30px;
+    position: sticky;
+    top: 0;
 }
 
 #logo{
@@ -201,40 +203,140 @@ nav{
 /*_______________________________________________Pseudo Drop-Down-Menu*/
 
 
+/*_____________________Übertitel*/
+
 .uebertitel_dropdown{
     font-weight: 900;
     color: #CD7C46;
     text-align: left;
     font-size: 48px;    
-    margin: 80px 0px 30px 0px;
+    margin: 100px 0px 42px 0px;
 }
 
-.dropdown_menu{
+
+/*_____________________Untertitel Drop-down Menu*/
+
+
+.dropdown_menu_titel{
     display: flex;
     border-top: solid #004318 4px;
-    border-bottom: dashed #004318 2px;
+    border-bottom: dotted #004318 2px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+
+.dropdown_zahl{
+    font-weight: 900;
+    color: #004318;
+    text-align: left;
+    flex: 50px;
 }
 
 .untertitel_dropdown{
     font-weight: 900;
     color: #004318;
     text-align: left;
-    flex: 90%;
+    flex: 100%;
 }
 
 .dropdown_pfeil img{
-    flex: 20%;
+    flex: 10%;
     text-align: right;
     height: 14px;
     justify-content: center;
     align-items: center;
 }
 
+
+/*_____________________Text Drop-down Menu*/
+
+
+.dropdown_menu_text{
+    display: flex;
+    padding-left: 56px;
+    padding-right: 10px;
+}
+
 .dropdown_text{
     color: #004318;
     font-size: 32px;
     text-align: left;
-    padding-left: 10px;
+}
+
+
+/*_____________________Letzter Punkt vom Drop-down Menu*/
+
+.dropdown_menu_text_letzter{
+    display: flex;
+    border-bottom: solid #004318 4px;
+}
+
+.dropdown_text_letzter{
+    color: #004318;
+    font-size: 32px;
+    text-align: left;
+    padding-left: 56px;
+}
+
+
+/*_______________________________________________Rezensionen*/
+
+
+.uebertitel_rezensionen{
+    color: #004318;
+    font-weight: 900;
+    padding: 100px 300px 42px 300px;
+}
+
+.rezensionen_karussell{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    height: 600px;
+}
+
+.rezensionen_block{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    flex: 50%;
+    box-shadow: 1px 15px 20px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 42px;
+}
+
+.rezensionen_name{
+    color: #004318;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.rezensionen_text{
+    color: #004318;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.rezensionen_link_kompletter_artikel{
+    font-size: 20px;
+    color: #004318;
+    border-bottom: 4px solid #BEF542;
+}
+
+.rezensionen_link_kompletter_artikel a{
+    text-decoration: none;
+}
+
+.rezensionen_dots{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
