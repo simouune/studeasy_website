@@ -1,5 +1,28 @@
+*{
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    font-style: normal; 
+}
+
+.green-button {
+    background-color: #008849;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
 body{
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
 }
 
 h1{
@@ -29,6 +52,60 @@ p{
     color: #CD7C46;
 
 }
+
+
+/*_______________________________________________Header*/
+
+header{
+    background-color: #FDFFF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    width: 248px;
+    display: 1;
+}
+
+
+/*__________Navigation*/
+
+nav{
+    display: 4;
+}
+
+.nav_links{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.nav_links a{
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 150px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-size: 24px;   
+    text-align: center;
+    color: #004317; 
+}
+
+.nav_links a:hover, .aktiver_nav_link{
+    font-weight:900;
+    color: #004318;
+    margin-bottom: 5px;
+}
+
+
 
 /*_______________________________________________Zeile 1*/
 
@@ -120,4 +197,146 @@ p{
     height: 100%;
     object-fit: cover;
     border-radius: 25px;
+}
+
+
+/*_______________________________________________Pseudo Drop-Down-Menu*/
+
+
+/*_____________________Übertitel*/
+
+.uebertitel_dropdown{
+    font-weight: 900;
+    color: #CD7C46;
+    text-align: left;
+    font-size: 48px;    
+    margin: 100px 0px 42px 0px;
+}
+
+
+/*_____________________Untertitel Drop-down Menu*/
+
+
+.dropdown_menu_titel{
+    display: flex;
+    border-top: solid #004318 4px;
+    border-bottom: dotted #004318 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.dropdown_zahl{
+    font-weight: 900;
+    color: #004318;
+    text-align: left;
+    flex: 50px;
+}
+
+.untertitel_dropdown{
+    font-weight: 900;
+    color: #004318;
+    text-align: left;
+    flex: 100%;
+}
+
+.dropdown_pfeil img{
+    flex: 10%;
+    text-align: right;
+    height: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*_____________________Text Drop-down Menu*/
+
+
+.dropdown_menu_text{
+    display: flex;
+    padding-left: 56px;
+    padding-right: 10px;
+}
+
+.dropdown_text{
+    color: #004318;
+    font-size: 32px;
+    text-align: left;
+}
+
+
+/*_____________________Letzter Punkt vom Drop-down Menu*/
+
+.dropdown_menu_text_letzter{
+    display: flex;
+    border-bottom: solid #004318 4px;
+}
+
+.dropdown_text_letzter{
+    color: #004318;
+    font-size: 32px;
+    text-align: left;
+    padding-left: 56px;
+}
+
+
+/*_______________________________________________Rezensionen*/
+
+
+.uebertitel_rezensionen{
+    color: #004318;
+    font-weight: 900;
+    padding: 100px 300px 42px 300px;
+}
+
+.rezensionen_karussell{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    height: 600px;
+}
+
+.rezensionen_block{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    flex: 50%;
+    box-shadow: 1px 15px 20px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 42px;
+}
+
+.rezensionen_name{
+    color: #004318;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.rezensionen_text{
+    color: #004318;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.rezensionen_link_kompletter_artikel{
+    font-size: 20px;
+    color: #004318;
+    border-bottom: 4px solid #BEF542;
+}
+
+.rezensionen_link_kompletter_artikel a{
+    text-decoration: none;
+}
+
+.rezensionen_dots{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
