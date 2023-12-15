@@ -254,6 +254,22 @@ nav{
     border-radius: 25px;
 }
 
+/*___________________________________Zeile our Partners*/
+
+.block-our-partners {
+ width: 100%;
+    height: 390px;
+    border-radius: 25px;
+    background-color: #F2F8E2;
+   padding: 110px; /* Innenabstand des Blocks (optional) */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 
 
 /*_______________________________________________Footer*/
