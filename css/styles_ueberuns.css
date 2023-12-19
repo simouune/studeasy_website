@@ -148,9 +148,17 @@ nav{
     text-align: center;
     background: #FDFFF8;
     border-radius: 25px;
-    border-left: 300px solid #FDFFF8;
-    border-right: 300px solid #FDFFF8;
+    padding: 50px 40px 50px 40px;
     height: 600px;
+}
+
+.container_profiles {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;   
+    width: 100%;
+    justify-content: space-around;
+
 }
 
 
@@ -194,14 +202,16 @@ nav{
     background: #F2F8E2;
     border-radius: 25px;
     padding: 50px 40px 90px 40px;
-    height: 600px;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .container_value_box {
     display: flex;
-    justify-content: center
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 50px;
 }
 
 .value_box_1, .value_box_2, .value_box_3{
@@ -209,9 +219,6 @@ nav{
     width: 391px;
 }
 
-.value_box_2 {
-    margin: 0px 30px 0px 30px;
-}
 
 /*_______________________________________________Zeile 6*/
 
@@ -221,17 +228,15 @@ nav{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: #FDFFF8;
     border-radius: 25px;
-    border-left: 300px solid #FDFFF8;
-    border-right: 300px solid #FDFFF8;
     height: 600px;
 }
 
 .container_logos{
     display: flex;
-    justify-content: left;
+    width: 100%;
     align-items: center;
+    justify-content: center;
 }
 .logo_fhgr{
     width: 82px;
