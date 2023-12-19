@@ -27,7 +27,6 @@ body{
 
 h1{
     color: white;
-    text-align: center;
     font-size: 63px;
     font-weight: 900;
     margin: 10px;
@@ -35,7 +34,6 @@ h1{
 
 h2{
     color: white;
-    text-align: center;
     font-size: 48px;
     font-weight: 900;
     margin: 10px;
@@ -43,14 +41,25 @@ h2{
 
 p{
     color: white;
-    text-align: center;
     font-size: 32px;
 }
 
 .oranger_titel{
     font-size: 32px;
     color: #CD7C46;
+    margin-bottom: 0px;
 
+}
+
+.text_green{
+    color: #004318;
+}
+
+.h2_green{
+    color: #004318;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px;
 }
 
 
@@ -116,9 +125,8 @@ nav{
     text-align: center;
     background: #004318;
     border-radius: 25px;
-    border-left: 300px solid #004318;
-    border-right: 300px solid #004318;
-    height: 600px;
+    padding: 50px 40px 50px 40px;
+    height: 400px;
 }
 
 
@@ -143,15 +151,14 @@ nav{
 
 .block3{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
     background: #BEF542;
     border-radius: 25px;
-    border-left: 300px solid #BEF542;
-    border-right: 300px solid #BEF542;
-    height: 600px;
+    padding: 70px 40px 50px 40px;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -161,15 +168,14 @@ nav{
 
 .block4{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     background: #008849;
     border-radius: 25px;
-    border-left: 300px solid #008849;
-    border-right: 300px solid #008849;
-    height: 600px;
+    padding: 70px 40px 50px 40px;
+    height: auto;
 }
 
 
