@@ -6,5 +6,62 @@
     <title>Kontakt - studeasy</title>
     <link rel="stylesheet" href="/css/styles_kontakt.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="/index.html">
+          <img src="/img/Logo_gruen_IM.svg" alt="Logo studeasy" />
+        </a>
+      </div>
+
+      <nav>
+        <ul class="nav_links">
+          <li><a class="aktiver_nav_link" href="/index.html">Home</a></li>
+          <li><a href="/html/angebot.html">Angebot</a></li>
+          <li><a href="/html/ueberuns.html">About us</a></li>
+          <li><a href="/html/kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <button class="green-button">Start your journey</button>
+    </header>
+    <main>
+      <!--Zeile 1-->
+
+      <div class="block1">
+        <h1>Du erreichst uns hier</h1>
+        <div class="Kontakt_formular">
+          <form action="kontakt.php" method="post">
+            <label for="name">Vorname</label><br>
+            <input type="text" id="vorname" name="vorname" placeholder="Dein Vorname"/><br>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Dein Name" /><br>
+
+
+            <label for="email">E-Mail</label><br>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Deine E-Mail"
+            /><br>
+
+            <label for="nachricht">Nachricht</label><br>
+            <textarea
+              id="nachricht"
+              name="nachricht"
+              placeholder="Deine Nachricht"
+            ></textarea><br>
+
+            <button class="green-button" type="submit">Senden</button>
+          </form>
+
+        </div>
+        <div class="Karte">
+
+        </div>
+        </p>
+      </div>
+    </main>
+  </body>
 </html>

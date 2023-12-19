@@ -1,0 +1,122 @@
+/*_______________________________________________Allgemein Einstellungen*/
+*{
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    font-style: normal; 
+}
+
+.green-button {
+    background-color: #008849;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body{
+    padding: 0px 30px 30px 30px;
+}
+
+h1{
+    color: white;
+    font-size: 63px;
+    font-weight: 900;
+    margin-bottom: 0;
+    
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+p{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.oranger_titel{
+    font-size: 32px;
+    color: #CD7C46;
+
+}
+
+
+/*_______________________________________________Header*/
+
+header{
+    background-color: #FDFFF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    width: 248px;
+    display: 1;
+}
+
+
+/*__________Navigation*/
+
+nav{
+    display: 4;
+}
+
+.nav_links{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.nav_links a{
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 150px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-size: 24px;   
+    text-align: center;
+    color: #004317; 
+}
+
+.nav_links a:hover, .aktiver_nav_link{
+    font-weight:900;
+    color: #004318;
+    margin-bottom: 5px;
+}
+
+/*_______________________________________________Zeile 1*/
+
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background: #008849;
+    border-radius: 25px;
+    border-left: 100px solid #008849;
+    border-right: 300px solid #008849;
+    border-bottom: 50px solid #008849;
+    border-top: 50px solid #008849;
+    height: 600px;
+}
