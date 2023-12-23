@@ -202,7 +202,54 @@ nav{
 
 /*_______________________________________________Pseudo Drop-Down-Menu*/
 
+#accordion li{
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
 
+#accordion li label{
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 28px;
+    color: #004318;
+    border-top: solid #004318 4px;
+    
+}
+
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 32px;
+}
+
+#accordion label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .content{
+    padding: 0px 10px;
+    line-height: 26px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 700px;
+}
+
+.content p{
+    border-top: dotted #004318 2px;
+    padding-top: 20px;
+    color: #004318;
+    font-size: 26px;
+    text-align: left;
+}
 /*_____________________Übertitel*/
 
 .uebertitel_dropdown{
