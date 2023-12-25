@@ -238,27 +238,25 @@ nav{
     align-items: center;
     justify-content: center;
 }
-.logo_fhgr{
-    width: 82px;
-    height: 79px;
-    
+.logo{
+    flex: 25%;
 }
 .img_logo_fhgr{
-    width: 82px;
-    height: 79px;
+    width: auto;
+    height: 100px;
 }
 
 .img_logo_eth{
-    width: 210px;
-    height: 200px;
+    width: auto;
+    height: 250px;
 }
 
 .img_logo_genf {
-    width: 117px;
-    height: 34px;
+    width: auto;
+    height: 100px;
 }
 
 .img_logo_zhaw {
-    width: 150px;
-    width: 100px;
+    width: auto;
+    height: 100px;
 }

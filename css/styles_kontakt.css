@@ -124,3 +124,39 @@ nav{
 form  {
     color: white;
 }
+
+#vorname{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#name{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#nachricht{
+    width: 500px;
+    height: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}

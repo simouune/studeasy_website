@@ -261,6 +261,7 @@ nav{
 .block-our-partners {
     width: 100%;
     height: 390px;
+    display: block;
     border-radius: 25px;
     background-color: #F2F8E2;
     padding: 110px; /* Innenabstand des Blocks (optional) */
@@ -269,11 +270,16 @@ nav{
     box-sizing: border-box;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 10px;
 }
 
 .container_logos {
     display: flex;
-    justify-content: space-around;
+}
+
+.school-logo {
+    flex: 20%;
+    padding: 5px;
 }
 
 /*_______________________________________________Footer*/
@@ -376,7 +382,10 @@ footer {
     border-radius: 25px;
     padding-right: 15px;
     padding-left: 5px;
+    height: 85%;
+    margin-right: 15px;
 }
 .pfeil {
-    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
 }
