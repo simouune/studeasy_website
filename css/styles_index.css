@@ -21,10 +21,6 @@
     font-size: 16px;
 }
 
-body{
-    padding: 0px 30px 30px 30px;
-}
-
 h1{
     color: white;
     text-align: center;
@@ -53,7 +49,92 @@ p{
 
 }
 
+/*_______________________________________________Responsive*/
 
+/*__________Mobile view*/
+
+.header_container,
+.block1_container,
+.block2_container,
+.quartet_container,
+.partner_container,
+.footer_container{
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/*_______________________________________________2xl*/
+@media (max-width: 1536px) {
+    .header_container,
+    .block1_container,
+    .block2_container,
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        max-width: 1280px;
+    }
+  }
+
+  /*_______________________________________________xl*/
+  @media (max-width: 1280px) {
+    .header_container,
+    .block1_container,
+    .block2_container,
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        max-width: 1024px;
+    }
+  }
+
+  /*_______________________________________________lg*/
+  @media (max-width: 1024px) {
+    .header_container,
+    .block1_container,
+    .block2_container,
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        max-width: 768px;
+    }
+  }
+
+    /*_______________________________________________md*/
+  @media (max-width: 768px) {
+    .header_container,
+    .block1_container,
+    .block2_container,
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        max-width: 640px;
+    }
+  }
+ /*_______________________________________________sm*/
+  @media (max-width: 640px) {
+    .header_container,
+    .block1_container,
+    .block2_container,
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        max-width: 475px;
+    }
+  }
+/*_______________________________________________xs*/
+  @media (max-width: 475px) {
+    .header_container,
+    .block1_container,
+    .block2_container,  
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        width: 100%;
+    }
+  }
 /*_______________________________________________Header*/
 
 header{
@@ -110,7 +191,7 @@ nav{
 /* Stil für den Block */
 .custom-block {
     width: 100%;
-    height: 545px;
+    height: auto;
     border-radius: 25px;
     background-image: url(/Images/homepage2.png);/* Hintergrundbild des Blocks */
     background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Block abdeckt */
@@ -144,12 +225,12 @@ nav{
 
 .custom-block2 {
     width: 100%;
-    height: 390px;
+    height: auto;
     border-radius: 25px;
     background-color: #BEF542;
    padding: 110px; /* Innenabstand des Blocks (optional) */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     box-sizing: border-box;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -285,11 +366,9 @@ nav{
 /*_______________________________________________Footer*/
 
 footer {
-     left: 0;
-     bottom: 0;
      width: 100%;
      background-color:#F2F8E2;  
-     color:#004318;
+     color:#004318; 
      text-align: center;
      padding-top:10px;
      padding-bottom:10px;
@@ -299,11 +378,12 @@ footer {
   .titel_footer {
       font-size: 48px;
       font-weight: 800;
+      margin: 10px 100px 10p;
       color: #004318;
   }
 
   .newsletterbox {
-      width: 70%;
+      width: 100%;  
       height: 100px;
       margin: 0 auto;
       margin-top: 50px;
@@ -338,7 +418,7 @@ footer {
 
   .footer__links {
       display: flex;
-      width: 70%;
+      width: 100%;
       justify-content: space-between;
       margin: 0 auto;
   }
@@ -346,15 +426,26 @@ footer {
    a {
     text-decoration: none;
     font-size: 32px;
+    color: #004318;
   }
 
   .footer__links__left {
     text-align: left;
   }
+.container_footer_links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+}
 .adresse_footer_right p {
         text-align: right;
         font-size: 32px;
+        color: #004318;
+        text-decoration: none;
     }
 
 .Trennbalken {
