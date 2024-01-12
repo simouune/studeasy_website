@@ -43,6 +43,10 @@ p{
     font-size: 32px;
 }
 
+a {
+    font-size: 25px !important;
+  }
+
 .oranger_titel{
     font-size: 32px;
     color: #CD7C46;
@@ -50,8 +54,6 @@ p{
 }
 
 /*_______________________________________________Responsive*/
-
-/*__________Mobile view*/
 
 .header_container,
 .block1_container,
@@ -66,75 +68,114 @@ p{
     padding-right: 0.5rem;
 }
 
-/*_______________________________________________2xl*/
-@media (max-width: 1536px) {
-    .header_container,
-    .block1_container,
-    .block2_container,
-    .quartet_container,
-    .partner_container,
-    .footer_container{
-        max-width: 1280px;
-    }
-  }
+/*______________________________________________Mobile view*/
 
-  /*_______________________________________________xl*/
-  @media (max-width: 1280px) {
-    .header_container,
-    .block1_container,
-    .block2_container,
-    .quartet_container,
-    .partner_container,
-    .footer_container{
-        max-width: 1024px;
-    }
-  }
+/*Allgemein Einstellungen*/
 
-  /*_______________________________________________lg*/
-  @media (max-width: 1024px) {
-    .header_container,
-    .block1_container,
-    .block2_container,
-    .quartet_container,
-    .partner_container,
-    .footer_container{
-        max-width: 768px;
-    }
-  }
-
-    /*_______________________________________________md*/
-  @media (max-width: 768px) {
-    .header_container,
-    .block1_container,
-    .block2_container,
-    .quartet_container,
-    .partner_container,
-    .footer_container{
-        max-width: 640px;
-    }
-  }
- /*_______________________________________________sm*/
-  @media (max-width: 640px) {
-    .header_container,
-    .block1_container,
-    .block2_container,
-    .quartet_container,
-    .partner_container,
-    .footer_container{
-        max-width: 475px;
-    }
-  }
-/*_______________________________________________xs*/
-  @media (max-width: 475px) {
+  @media only screen and (max-width: 600px) {
     .header_container,
     .block1_container,
     .block2_container,  
     .quartet_container,
     .partner_container,
     .footer_container{
-        width: 100%;
+        width: 100% !important;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    h1{
+        font-size: 35px !important;
+    }
+
+    p{
+        font-size: 25px !important;
+    }
+
+     /*Header*/
+
+     header{
+        padding: 0px 30px 0px 30px !important;
+        
+    }
+
+    .nav_links{
+        gap: 0px !important;
+    }
+
+    .nav_links a{
+        font-size: 12px !important;
+        width: 90px !important;
+        padding: 0px !important; 
+    }
+
+    #start_button {
+        display: none !important;
+    }
+
+    /*Main*/
+
+    .block-title {
+        font-size: 40px !important;
+    }
+    
+    .oranger_titel{
+        font-size: 25px;
+    }
+
+    .custom-block {
+        padding: 40px !important; /* Innenabstand des Blocks (optional) */
+    }
+
+    .block-subtitle,
+    .block-text-freemover{
+        font-size: 25px !important;
+    }
+
+    .block-title2 {
+        font-size: 35px !important;
+    }   
+
+    .zeile2,
+    .zeile3{
+        height: 400px !important;
+    }
+
+    .block2,
+    .block5,
+    .newsletterbox{
+        display: none !important;
+    }
+
+    .container_logos {
+        flex-wrap: wrap;
+    }
+
+    .custom-block2 {
+       padding: 40px !important;
+
+    }
+
+    /*Footer*/
+
+    .footer__links {
+        display: block !important;
+    }
+
+    .footer__links__left,
+    .footer__links__center {
+        text-align: center !important;
+      }
+
+      .adresse_footer_right p {
+        text-align: center !important;
+        font-size: 25px !important;
+        
     }
   }
+
 /*_______________________________________________Header*/
 
 header{
@@ -148,8 +189,7 @@ header{
 }
 
 #logo{
-    width: 248px;
-    display: 1;
+    width: 100px !important;
 }
 
 

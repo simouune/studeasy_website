@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="header_container">
       <div id="logo">
         <a href="/index.html">
           <img src="/img/Logo_gruen_IM.svg" alt="Logo studeasy" />
@@ -29,12 +29,13 @@
         </ul>
       </nav>
 
-      <button class="green-button">Start your journey</button>
+      <button id="start_button" class="green-button">Start your journey</button>
     </header>
 
     <main>
       <!--Zeile 1-->
 
+      <section class="block1_container">
       <div class="block1">
         <h1>Mit studeasy ins Ausland</h1>
         <p>
@@ -46,7 +47,9 @@
           Austauschsemesters konzentrieren.
         </p>
       </div>
+      </section>
 
+      <section class="quartet_container">
       <!--Zeile 2-->
 
       <div class="zeile2">
@@ -81,120 +84,98 @@
           <img src="/img/checkliste.svg" alt="checkliste" />
         </div>
       </div>
+      </section>
 
-      <!--Pseudo Drop-Down-Menu-->
 
-      <h2 class="uebertitel_dropdown">
+      <!--Accordion-->
+      <section class="accordion_container">
+      <h2 class="uebertitel_dropdown" style="padding-left: 10px;">
         Schritt für Schritt zu deinem Auslandsemester
       </h2>
+      <ul id="accordion" style="margin-left: 0%; margin-right: 0%;">
+        <li class="accordion-point">
+        <label for="first">1. Gib deine Suchkriterien ein <span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="first" checked />
 
-      <div class="dropdown_menu_titel">
-        <p class="dropdown_zahl">1.</p>
-        <p class="untertitel_dropdown">Gib deine Suchkriterien ein</p>
-        <img
-          class="dropdown_pfeil"
-          src="/img/pfeil_dropdown_offen.svg"
-          alt=""
-        />
-      </div>
+        <div class="content">
+          <p>
+            Keine Angst, das Ausfüllen des Formulars wird nur wenige Minuten
+            deiner Zeit beanspruchen.
+          </p>
+        </div>
+        </li>
+        <li class="accordion-point">
+        <label for="second">2. Finde die passende Universität<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="second" />
 
-      <div class="dropdown_menu_text">
-        <p class="dropdown_text">
-          Keine Angst, das Ausfüllen des Formulars wird nur wenige Minuten
-          deiner Zeit beanspruchen.
-        </p>
-      </div>
+        <div class="content">
+          <p>
+            Anhand deiner Suchkriterien zeigt dir unser University-Finder alle
+            potenziellen Universitäten in deiner Wunschdestination an. Du kannst
+            bei der Suche auch die Destination offenlassen und nur dein
+            Studienfach auswählen - dann werden dir sämtliche passenden
+            Universitäten auf der ganzen Welt angezeigt und du kannst dich
+            inspirieren lassen, welches Land für dich interessant sein könnte.
+            Die Suchergebnisse werden als Ranking aufgelistet. Entscheidend
+            dafür ist zum einen, wie gut die Universitäten zu deinen Eingaben
+            passen, zum anderen aber auch, wie gut die Universitäten von
+            ehemaligen Studeasy-Nutzern:innen bewertet wurden.
+          </p>
+        </div>
+      </li>
+      <li class="accordion-point">
+        <label for="third">3. Erhalte deine Checkliste mit allen To-Do’s, die es für dein
+          Auslandssemester zu beachten gilt<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="third" />
+        </div>
 
-      <div class="dropdown_menu_titel">
-        <p class="dropdown_zahl">2.</p>
-        <p class="untertitel_dropdown">Finde die passende Universität</p>
-        <img
-          class="dropdown_pfeil"
-          src="/img/pfeil_dropdown_offen.svg"
-          alt=""
-        />
-      </div>
+        <div class="content">
+          <p>
+            Sobald du dich für eine Universität entschieden hast, erhältst du
+            von uns eine individualisierte Checkliste. Diese erleichtert es dir,
+            den Überblick über den Planungsprozess zu wahren. Mit dieser
+            Schritt-für-Schritt-Anleitung hast du eine zuverlässige Begleitung
+            für die Organisation deines Auslandssemesters, damit auch sicher
+            nichts vergessen geht. Die Checkliste kann in zwei verschiedenen
+            Ansichten angezeigt werden. Anhand der Zeitstrahl-Funktion werden
+            die To-Do’s nach ihrer Fälligkeit gegliedert. Möchtest du die
+            To-Do’s in Kategorien (z. B. Unterkunft, Anreise etc.) unterteilt
+            haben, ist dies ebenfalls möglich.
+          </p>
+        </div>
+      </li>
 
-      <div class="dropdown_menu_text">
-        <p class="dropdown_text">
-          Anhand deiner Suchkriterien zeigt dir unser University-Finder alle
-          potenziellen Universitäten in deiner Wunschdestination an. Du kannst
-          bei der Suche auch die Destination offenlassen und nur dein
-          Studienfach auswählen - dann werden dir sämtliche passenden
-          Universitäten auf der ganzen Welt angezeigt und du kannst dich
-          inspirieren lassen, welches Land für dich interessant sein könnte. Die
-          Suchergebnisse werden als Ranking aufgelistet. Entscheidend dafür ist
-          zum einen, wie gut die Universitäten zu deinen Eingaben passen, zum
-          anderen aber auch, wie gut die Universitäten von ehemaligen
-          Studeasy-Nutzern:innen bewertet wurden.
-        </p>
-      </div>
+      <li class="accordion-point">
+        <label for="fourth">4. Checkliste abarbeiten<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="fourth" />
 
-      <div class="dropdown_menu_titel">
-        <p class="dropdown_zahl">3.</p>
-        <p class="untertitel_dropdown">
-          Erhalte deine Checkliste mit allen To-Do’s, die es für dein
-          Auslandssemester zu beachten gilt
-        </p>
-        <img
-          class="dropdown_pfeil"
-          src="/img/pfeil_dropdown_offen.svg"
-          alt=""
-        />
-      </div>
+        <div class="content">
+          <p>
+            Langsam wird es ernst. Alles, was du nun zu tun hast, ist Schritt
+            für Schritt deine personalisierte Checkliste abzuarbeiten, und du
+            wirst im Nullkommanichts bereit sein, die Erfahrung deines Lebens zu
+            machen.
+          </p>
+        </div>
+      </li>
 
-      <div class="dropdown_menu_text">
-        <p class="dropdown_text">
-          Sobald du dich für eine Universität entschieden hast, erhältst du von
-          uns eine individualisierte Checkliste. Diese erleichtert es dir, den
-          Überblick über den Planungsprozess zu wahren. Mit dieser
-          Schritt-für-Schritt-Anleitung hast du eine zuverlässige Begleitung für
-          die Organisation deines Auslandssemesters, damit auch sicher nichts
-          vergessen geht. Die Checkliste kann in zwei verschiedenen Ansichten
-          angezeigt werden. Anhand der Zeitstrahl-Funktion werden die To-Do’s
-          nach ihrer Fälligkeit gegliedert. Möchtest du die To-Do’s in
-          Kategorien (z. B. Unterkunft, Anreise etc.) unterteilt haben, ist dies
-          ebenfalls möglich.
-        </p>
-      </div>
+      <li class="accordion-point">
+        <label for="fifth">5. Du bist startklar!<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="fifth" />
 
-      <div class="dropdown_menu_titel">
-        <p class="dropdown_zahl">4.</p>
-        <p class="untertitel_dropdown">Checkliste abarbeiten</p>
-        <img
-          class="dropdown_pfeil"
-          src="/img/pfeil_dropdown_offen.svg"
-          alt=""
-        />
-      </div>
-
-      <div class="dropdown_menu_text">
-        <p class="dropdown_text">
-          Langsam wird es ernst. Alles, was du nun zu tun hast, ist Schritt für
-          Schritt deine personalisierte Checkliste abzuarbeiten, und du wirst im
-          Nullkommanichts bereit sein, die Erfahrung deines Lebens zu machen.
-        </p>
-      </div>
-
-      <div class="dropdown_menu_titel">
-        <p class="dropdown_zahl">5.</p>
-        <p class="untertitel_dropdown">Du bist startklar!</p>
-        <img
-          class="dropdown_pfeil"
-          src="/img/pfeil_dropdown_offen.svg"
-          alt=""
-        />
-      </div>
-
-      <div class="dropdown_menu_text_letzter">
-        <p class="dropdown_text_letzter">
-          Jetzt steht dir nichts mehr im Weg, um das Maximum aus deinem
-          Auslandsemester herauszuholen. Geniesse es!
-        </p>
-      </div>
+        <div class="content">
+          <p>
+            Jetzt steht dir nichts mehr im Weg, um das Maximum aus deinem
+            Auslandsemester herauszuholen. Geniesse es!
+          </p>
+        </div>
+      </li>
+      </ul>
+      </section>
 
       <!--Rezensionen-->
 
+      <section class="rezensionen_container">
       <h2 class="uebertitel_rezensionen">
         Du bist noch nicht sicher, ob ein Auslandssemester das Richtige für dich
         ist? Die Erfahrungen von ehemaligen studeasy-Nutzer:innen können dir
@@ -202,7 +183,7 @@
       </h2>
 
       <div class="rezensionen_karussell">
-        <div class="rezensionen_block">
+        <div class="rezensionen_block_1">
           <p class="rezensionen_name">Tom 23, Zürich</p>
           <p class="rezensionen_text">
             «Mein Austausch in Lissabon hat mein Leben verändert. Ich kam als
@@ -242,6 +223,7 @@
       <div class="rezensionen_dots">
         <img src="/img/dots_rezensionen.svg" alt="" />
       </div>
+      </section>
     </main>
   </body>
 </html>

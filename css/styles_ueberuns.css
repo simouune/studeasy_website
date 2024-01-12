@@ -21,10 +21,6 @@
     font-size: 16px;
 }
 
-body{
-    padding: 0px 30px 30px 30px;
-}
-
 h1{
     color: white;
     font-size: 63px;
@@ -36,13 +32,15 @@ h2{
     color: white;
     font-size: 48px;
     font-weight: 900;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
 }
 
 h3{
     color: #004318;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 p{
@@ -68,6 +66,114 @@ p{
     font-size: 48px;
     font-weight: 900;
     margin: 10px;
+}
+
+.header_container,
+.block1_container,
+.block2_container,
+.block3_container,
+.block4_container,
+.block5_container,
+.block6_container,
+.footer_container{
+    max-width: 1536px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/*______________________________________________Mobile view*/
+
+/*Allgemein Einstellungen*/
+
+@media only screen and (max-width: 600px) {
+    .header_container,
+    .block1_container,
+    .block2_container,
+    .block3_container,
+    .block4_container,
+    .block5_container,
+    .block6_container,
+    .footer_container{
+        width: 100% !important;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    h1{
+        font-size: 35px !important;
+    }
+
+    .h2_green{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 25px !important;
+    }
+
+     /*Header*/
+
+     header{
+        padding: 0px 30px 0px 30px !important;
+        
+    }
+
+    .nav_links{
+        gap: 0px !important;
+    }
+
+    .nav_links a{
+        font-size: 12px !important;
+        width: 90px !important;
+        padding: 0px !important; 
+    }
+
+    #start_button {
+        display: none !important;
+    }
+
+    /*Main*/
+
+    .block1{
+        height: auto !important;
+        padding: 40px !important;
+    }
+
+    .container_profiles{
+        flex-wrap: wrap !important;
+    }
+
+    .profile_dario,
+    .profile_simone,
+    .profile_cedric{
+       text-align: center !important;
+    }
+
+    .profile_dario p,
+    .profile_simone p,
+    .profile_cedric p{
+       margin-top: 0px !important;
+       margin-bottom: 50px !important;
+    }
+
+    .block3{
+        text-align: left !important;
+    }
+
+    .container_value_box {
+        flex-wrap: wrap !important;
+    }
+    
+    .value_box_1, 
+    .value_box_2, 
+    .value_box_3{
+        margin-bottom: 40px;
+    }
+
 }
 
 

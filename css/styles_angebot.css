@@ -20,11 +20,6 @@
     font-size: 16px;
 }
 
-
-body{
-    padding: 0px 30px 30px 30px;
-}
-
 h1{
     color: white;
     text-align: center;
@@ -52,7 +47,104 @@ p{
     color: #CD7C46;
 
 }
+.header_container,
+.block1_container,
+.rezensionen_container,  
+.quartet_container,
+.accordion_container,
+.footer_container{
+    max-width: 1536px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+/*______________________________________________Mobile view*/
 
+/*Allgemein Einstellungen*/
+
+@media only screen and (max-width: 600px) {
+    .header_container,
+    .block1_container,
+    .rezensionen_container,  
+    .quartet_container,
+    .accordion_container,
+    .footer_container{
+        width: 100% !important;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    h1{
+        font-size: 35px !important;
+    }
+
+    p{
+        font-size: 25px !important;
+    }
+
+     /*Header*/
+
+     header{
+        padding: 0px 30px 0px 30px !important;
+        
+    }
+
+    .nav_links{
+        gap: 0px !important;
+    }
+
+    .nav_links a{
+        font-size: 12px !important;
+        width: 90px !important;
+        padding: 0px !important; 
+    }
+
+    #start_button {
+        display: none !important;
+    }
+
+    /*Main*/
+
+    .block1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background: #008849;
+        border-radius: 25px;
+        border-left: 0px solid #008849 !important;
+        border-right: 0px solid #008849 !important;
+        padding: 40px !important;
+        height: 600px;
+    }
+
+    .zeile2,
+    .zeile3{
+        height: 400px !important;
+    }
+
+    .block2,
+    .block5,
+    .newsletterbox{
+        display: none !important;
+    }
+
+    .uebertitel_rezensionen{
+        padding: 50px 0px 50px 0px !important;
+    }
+
+    .rezensionen_karussell{
+        flex-wrap: wrap !important;
+    }
+
+    .rezensionen_block{
+        display: none !important;
+    }
+}
 
 /*_______________________________________________Header*/
 
@@ -200,7 +292,7 @@ nav{
 }
 
 
-/*_______________________________________________Pseudo Drop-Down-Menu*/
+/*_______________________________________________Accordion*/
 
 #accordion li{
     list-style-type: none;
@@ -301,44 +393,16 @@ ul{
     margin: 0;
 }
 
-/*_____________________Text Drop-down Menu*/
-
-
-.dropdown_menu_text{
-    display: flex;
-    padding-left: 56px;
-    padding-right: 10px;
-}
-
-.dropdown_text{
-    color: #004318;
-    font-size: 32px;
-    text-align: left;
-}
-
-
-/*_____________________Letzter Punkt vom Drop-down Menu*/
-
-.dropdown_menu_text_letzter{
-    display: flex;
-    border-bottom: solid #004318 4px;
-}
-
-.dropdown_text_letzter{
-    color: #004318;
-    font-size: 32px;
-    text-align: left;
-    padding-left: 56px;
-}
-
-
 /*_______________________________________________Rezensionen*/
 
 
 .uebertitel_rezensionen{
     color: #004318;
     font-weight: 900;
-    padding: 100px 300px 42px 300px;
+    padding-top: 100px;
+    padding-bottom: 42px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .rezensionen_karussell{
@@ -349,7 +413,8 @@ ul{
     height: 600px;
 }
 
-.rezensionen_block{
+.rezensionen_block,
+.rezensionen_block_1{
     display: flex;
     background-color: white;
     justify-content: center;
@@ -392,13 +457,3 @@ ul{
     justify-content: center;
     margin-bottom: 100px;
 }
-
-/*_______________________________________________accordion*/
-
-/* .content{
-    width: 50%;
-} */
-
-/* .accordion-point{
-    width: 50%;
-} */
