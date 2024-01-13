@@ -53,6 +53,67 @@ p{
 
 }
 
+/*_______________________________________________Responsive*/
+
+.header_container,
+.block1_container,
+.footer_container{
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/*___________________________Mobile view*/
+
+/*Allgemein Einstellungen*/
+
+  @media only screen and (max-width: 600px) {
+    .header_container,
+    .block1_container,
+    .footer_container{
+        width: 100% !important;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    h1{
+        font-size: 35px !important;
+    }
+
+    p{
+        font-size: 25px !important;
+    }
+
+     /*Header*/
+
+     header{
+        padding: 0px 30px 0px 30px !important;
+        
+    }
+
+    .nav_links{
+        gap: 0px !important;
+    }
+
+    .nav_links a{
+        font-size: 12px !important;
+        width: 90px !important;
+        padding: 0px !important; 
+    }
+
+    #start_button {
+        display: none !important;
+    }
+
+    /*Main*/
+
+
+}
+
 
 /*_______________________________________________Header*/
 
@@ -96,7 +157,7 @@ nav{
     text-decoration: none;
     font-size: 24px;   
     text-align: center;
-    color: #004317; 
+    color: #004318; 
 }
 
 .nav_links a:hover, .aktiver_nav_link{
@@ -112,11 +173,9 @@ nav{
     justify-content: center;
     align-items: left;
     flex-direction: column;
-    background: #008849;
+    background: #004318;
     border-radius: 25px;
-    border-left: 100px solid #008849;
-    border-right: 300px solid #008849;
-    border-bottom: 50px solid #008849;
-    border-top: 50px solid #008849;
-    height: 600px;
+    border-left: 100px solid #004318;
+    border-right: 300px solid #004318;
+    height: auto;
 }
