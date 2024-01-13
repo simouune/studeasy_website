@@ -70,7 +70,7 @@ p{
     .quartet_container,
     .accordion_container,
     .footer_container{
-        width: 100% !important;
+        max-width: 100% !important;
     }
 
     h2{
@@ -90,6 +90,11 @@ p{
      header{
         padding: 0px 30px 0px 30px !important;
         
+    }
+
+    #logo{
+        width: 75px !important;
+        display: 1;
     }
 
     .nav_links{

@@ -79,7 +79,7 @@ a {
     .quartet_container,
     .partner_container,
     .footer_container{
-        width: 100% !important;
+        max-width: 100% !important;
     }
 
     h2{
@@ -101,8 +101,14 @@ a {
         
     }
 
+    #logo{
+        width: 75px !important;
+        display: 1;
+    }
+
     .nav_links{
         gap: 0px !important;
+        width: 90px !important;
     }
 
     .nav_links a{
@@ -339,8 +345,6 @@ nav{
     flex: 50%;
 }
 
-
-
 /*_______________________________________________Zeile 3*/
 
 .zeile3{ 
@@ -364,7 +368,6 @@ nav{
     box-sizing: border-box;
     flex: 50%;
 }
-
 
 .block5{
     width: 100%;
@@ -460,7 +463,7 @@ footer {
   .footer__links {
       display: flex;
       width: 100%;
-      justify-content: space-between;
+      justify-content: space-evenly;
       margin: 0 auto;
   }
 
@@ -472,6 +475,8 @@ footer {
 
   .footer__links__left {
     text-align: left;
+    width: 33%;
+    justify-content: left;
   }
 .container_footer_links{
     display: flex;
@@ -482,9 +487,25 @@ footer {
     padding-bottom: 10px;
 
 }
+
+.footer__links__center{
+    display: flex;
+    justify-content: center;
+    width: 33%;    
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.adresse_footer_right {
+    justify-content: right;
+    width: 33%;
+}
+
 .adresse_footer_right p {
         text-align: right;
-        font-size: 32px;
+        font-size: 25px;
         color: #004318;
         text-decoration: none;
     }
@@ -506,6 +527,10 @@ footer {
     padding: 0;
 }
 
+.center_linkliste {
+    padding: 0;
+}
+
 .container_email {
     display: flex;
     background-color: white;
@@ -520,4 +545,25 @@ footer {
 .pfeil {
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.green-button-footer {
+    background-color: #008849;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+}
+
+.button_footer {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
