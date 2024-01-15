@@ -72,7 +72,7 @@ a {
 
 /*Allgemein Einstellungen*/
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
     .header_container,
     .block1_container,
     .block2_container,  
@@ -102,19 +102,8 @@ a {
     }
 
     #logo{
-        width: 75px !important;
+        width: 100px !important;
         display: 1;
-    }
-
-    .nav_links{
-        gap: 0px !important;
-        width: 90px !important;
-    }
-
-    .nav_links a{
-        font-size: 12px !important;
-        width: 90px !important;
-        padding: 0px !important; 
     }
 
     #start_button {
@@ -220,6 +209,8 @@ a {
 
     .footer__links {
         display: block !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
     .footer__links__left,
@@ -237,6 +228,76 @@ a {
        display: none !important;
     }
   }
+
+  
+  /*__________________________________________Tablet view*/
+
+  @media only screen and (max-width: 1200px) {
+    .header_container,
+    .block1_container,
+    .block2_container,  
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        max-width: 100% !important;
+    }
+
+     /*Header*/
+
+     header{
+        padding: 0px 30px 0px 30px !important;
+        
+    }
+
+    #logo{
+        width: 150px !important;
+    }
+
+
+
+    #start_button {
+        display: none !important;
+    }
+
+
+    /*Main*/
+
+    .custom-block {
+        padding: 40px !important; /* Innenabstand des Blocks (optional) */
+    }
+
+    .zeile2,
+    .zeile3{
+        height: 400px !important;
+    }
+
+    .block2,
+    .block5,
+    .newsletterbox{
+        display: none !important;
+    }
+
+    .container_logos {
+        flex-wrap: wrap;
+    }
+
+    .custom-block2 {
+       padding: 40px !important;
+
+    }
+
+    .container_logos {
+        text-align: center !important;
+    }
+
+    #school-logo {
+       display: none !important;
+    }
+
+    /*Footer*/
+
+}
+
 
 /*_______________________________________________Header*/
 
@@ -526,8 +587,7 @@ footer {
   .footer__links {
       display: flex;
       width: 100%;
-      justify-content: space-evenly;
-      margin: 0 auto;
+      justify-content: space-between;
   }
 
    a {
@@ -538,24 +598,18 @@ footer {
 
   .footer__links__left {
     text-align: left;
-    width: 33%;
+    padding-left: 40px;
+    width: 300px;
     justify-content: left;
   }
 .container_footer_links{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;    
-    margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
 
 }
 
 .footer__links__center{
-    display: flex;
-    justify-content: center;
-    width: 33%;    
-    margin: 0 auto;
+    width: 300px;    
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -563,7 +617,8 @@ footer {
 
 .adresse_footer_right {
     justify-content: right;
-    width: 33%;
+    padding-right: 40px;
+    width: 300px;
 }
 
 .adresse_footer_right p {
