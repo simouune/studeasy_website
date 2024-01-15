@@ -96,25 +96,36 @@ a {
 
      /*Header*/
 
-     header{
+    header{
         padding: 0px 30px 0px 30px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
     }
 
     #logo{
-        width: 100px !important;
+        width: 180px !important;
         display: 1;
+        margin-top: 20px;
     }
 
     #start_button {
         display: none !important;
     }
 
-    .nav_links {
-        display: none !important;
+    .header_container{
+    display: flex;
     }
 
-    .burger-menu-btn{
+    .nav_links {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+    /*.burger-menu-btn{
         display: block !important;
         height: 50px !important;
         width: 50px !important;
@@ -160,7 +171,7 @@ a {
         padding: 30px 0px !important;
         flex-basis: 100% !important;
         text-align: center !important;
-     }
+     }*/
 
     /*Main*/
 
@@ -232,7 +243,7 @@ a {
     #school-logo {
        display: none !important;
     }
-  }
+
 
   
   /*__________________________________________Tablet view*/
@@ -251,19 +262,30 @@ a {
 
      header{
         padding: 0px 30px 0px 30px !important;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #logo{
-        width: 150px !important;
+        width: 200px !important;
+        display: 1;
+        margin-top: 10px;
     }
-
-
 
     #start_button {
         display: none !important;
     }
 
+    .header_container{
+    display: flex;
+    }
+
+    .nav_links {
+        display: flex;
+        justify-content: space-around;
+    }
 
     /*Main*/
 
