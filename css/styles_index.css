@@ -208,7 +208,7 @@ a {
     /*Footer*/
 
     .footer__links {
-        display: block !important;
+        flex-direction: column !important;
         align-items: center !important;
         justify-content: center !important;
     }
@@ -216,7 +216,12 @@ a {
     .footer__links__left,
     .footer__links__center {
         text-align: center !important;
+        padding-left: 0px !important;
       }
+
+    .adresse_footer_right {
+        padding-right: 0px !important;
+    }
 
       .adresse_footer_right p {
         text-align: center !important;
