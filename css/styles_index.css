@@ -570,6 +570,10 @@ footer {
       justify-content: space-between;
   }
 
+    .center{
+        padding-left: 0  ;
+    }
+
    a {
     text-decoration: none;
     font-size: 32px;
@@ -582,10 +586,10 @@ footer {
     width: 300px;
     justify-content: left;
   }
+
 .container_footer_links{
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 .footer__links__center{
@@ -614,11 +618,16 @@ footer {
 
 .icons_footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
     width: 25%;
     padding-top: 10px;
     padding-bottom: 10px;
+    align-items: center;
+}
+
+.icons_footer img{
+    margin: 0px 15px 0px 15px;
 }
 
 .Linkliste {
