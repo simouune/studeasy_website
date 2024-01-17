@@ -175,6 +175,11 @@ p{
        display: none !important;
     }
 
+    .newsletterbox{
+        display: none !important;
+    }
+
+
 }
 
  /*__________________________________________Tablet view*/
@@ -260,6 +265,11 @@ p{
     }
 
     /*Footer*/
+
+    .newsletterbox{
+        display: none !important;
+    }
+
 
 }
 

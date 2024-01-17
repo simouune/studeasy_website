@@ -152,6 +152,11 @@ p{
        display: none !important;
     }
 
+    .newsletterbox{
+        display: none !important;
+    }
+
+
 }
 
 /*__________________________________________Tablet view*/
@@ -201,6 +206,13 @@ p{
         border-left: 40px solid #004318 !important;
         border-right: 40px solid #004318 !important;
     }
+
+    /*Footer*/
+
+    .newsletterbox{
+        display: none !important;
+    }
+
 }
 
 
@@ -334,13 +346,15 @@ footer {
 
   a {
    text-decoration: none;
-   font-size: 32px;
+   font-size: 25px;
+   font-weight: 500;
    color: #004318;
  }
 
  .footer__links__left {
    text-align: left;
    padding-left: 40px;
+   padding-top: 9px;
    width: 300px;
    justify-content: left;
  }
@@ -352,8 +366,8 @@ footer {
 
 .footer__links__center{
    width: 300px;    
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 9px;
+   padding-bottom: 9px;
    text-align: center;
 }
 
@@ -366,6 +380,7 @@ footer {
 .adresse_footer_right p {
        text-align: right;
        font-size: 25px;
+       font-weight: 500;
        color: #004318;
        text-decoration: none;
    }

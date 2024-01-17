@@ -157,6 +157,11 @@ p{
     #school-logo {
        display: none !important;
     }
+
+    .newsletterbox{
+        display: none !important;
+    }
+
 }
 
  /*__________________________________________Tablet view*/
@@ -207,6 +212,13 @@ p{
         border-right: 40px solid #004318 !important;
         height: auto !important;
     }
+
+    /*Footer*/
+
+    .newsletterbox{
+        display: none !important;
+    }
+
 }
 
 /*_______________________________________________Header*/
