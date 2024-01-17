@@ -257,7 +257,6 @@ a {
         display: none !important;
     }
 
-
     .container_logos {
         flex-wrap: wrap;
     }
@@ -297,6 +296,11 @@ header{
 #logo{
     width: 248px;
     display: 1;
+}
+
+.burger-menu,
+.burger-menu-btn{
+    display: none;
 }
 
 
@@ -524,6 +528,8 @@ footer {
       font-weight: 800;
       margin: 10px 100px 10p;
       color: #004318;
+      margin-top: 50px;
+      margin-bottom: 40px;
   }
 
   .newsletterbox {
@@ -573,14 +579,12 @@ footer {
    a {
     text-decoration: none;
     font-size: 32px;
-    font-weight: 500;
     color: #004318;
   }
 
   .footer__links__left {
     text-align: left;
     padding-left: 40px;
-    padding-top: 9px;
     width: 300px;
     justify-content: left;
   }
@@ -592,8 +596,8 @@ footer {
 
 .footer__links__center{
     width: 300px;    
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -606,7 +610,6 @@ footer {
 .adresse_footer_right p {
         text-align: right;
         font-size: 25px;
-        font-weight: 500;
         color: #004318;
         text-decoration: none;
     }

@@ -340,13 +340,15 @@ footer {
     padding-top:10px;
     padding-bottom:10px;
     margin-top:10px;
- }
+    }
 
  .titel_footer {
      font-size: 48px;
      font-weight: 800;
      margin: 10px 100px 10p;
      color: #004318;
+     margin-top: 50px;
+     margin-bottom: 40px;
  }
 
  .newsletterbox {
