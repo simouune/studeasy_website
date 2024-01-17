@@ -1,11 +1,9 @@
 # Unsere studeasy-Website
 
-Was im README vorhanden sein soll:
-
-- Was macht unser Start-up
-- Welche Hilfsmittel haben wir verwendet (Chat GPT, W3Schools etc.)
-- Wieso wir den Aufbau so gewählt haben, wie es nun ist
-- Was gut bzw. was schlecht gegangen ist
+Semesterarbeit Modul Interaktive Medien:
+Cédric Züllig, Simone Etter, Dario Casanova
+Klasse MMP23c2, Fachhochschule Graubünden
+18. Januar 2024
 
 ## Beschrieb unseres Start-ups
 
