@@ -79,6 +79,7 @@ a {
 .block4_container,
 .block5_container,
 .block6_container,
+.video_block,
 .footer_container{
     max-width: 1536px;
     margin-left: auto; 
@@ -99,6 +100,7 @@ a {
     .block4_container,
     .block5_container,
     .block6_container,
+    .video_block,
     .footer_container{
         max-width: 100% !important;
     }
@@ -173,6 +175,10 @@ a {
        margin-bottom: 50px !important;
     }
 
+    body .video_block{
+    height: 275px !important;
+    }
+
     .block3{
         text-align: left !important;
     }
@@ -236,6 +242,7 @@ a {
     .block2_container,  
     .quartet_container,
     .partner_container,
+    .video_block,
     .footer_container{
         max-width: 100% !important;
     }
@@ -293,6 +300,10 @@ a {
        margin-bottom: 50px !important;
     }
 
+    .video_block{
+        height: 550px !important;
+    }
+
     .newsletterbox{
         display: none !important;
     }
@@ -334,6 +345,8 @@ header{
     padding: 30px 30px 30px 30px;
     position: sticky;
     top: 0;
+    position: sticky; 
+    z-index: 1000;
 }
 
 #logo{
@@ -431,6 +444,26 @@ nav{
 .profile_simone h3,
 .profile_cedric h3{
    margin-top: 20px !important;
+}
+
+/*_______________________________________________Zeile Video*/
+
+.video_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    height: 800px;
+    padding: 20px 0px 0px 0px;
+    object-fit: cover;  
+}
+
+.video_block video {
+    width: 100%;
+    height: 100%;
 }
 
 /*_______________________________________________Zeile 3*/
