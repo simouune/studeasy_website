@@ -257,6 +257,7 @@ a {
         display: none !important;
     }
 
+
     .container_logos {
         flex-wrap: wrap;
     }
@@ -296,11 +297,6 @@ header{
 #logo{
     width: 248px;
     display: 1;
-}
-
-.burger-menu,
-.burger-menu-btn{
-    display: none;
 }
 
 
