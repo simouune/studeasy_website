@@ -414,7 +414,24 @@ nav{
 
 }
 
+.profile_dario,
+.profile_simone,
+.profile_cedric{
+   text-align: center !important;
+}
 
+.profile_dario p,
+.profile_simone p,
+.profile_cedric p{
+   margin-top: 0px !important;
+   margin-bottom: 50px !important;
+}
+
+.profile_dario h3,
+.profile_simone h3,
+.profile_cedric h3{
+   margin-top: 20px !important;
+}
 
 /*_______________________________________________Zeile 3*/
 
@@ -531,6 +548,8 @@ footer {
      font-weight: 800;
      margin: 10px 100px 10p;
      color: #004318;
+     margin-top: 50px;
+     margin-bottom: 40px;
  }
 
  .newsletterbox {
