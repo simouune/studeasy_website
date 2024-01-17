@@ -124,6 +124,34 @@ p{
         height: auto;
     }
 
+    /*Footer*/
+
+    .footer__links {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .footer__links__left,
+    .footer__links__center {
+        text-align: center !important;
+        padding-left: 0px !important;
+      }
+
+    .adresse_footer_right {
+        padding-right: 0px !important;
+    }
+
+      .adresse_footer_right p {
+        text-align: center !important;
+        font-size: 25px !important;
+        
+    }
+
+    #school-logo {
+       display: none !important;
+    }
+
 }
 
 /*__________________________________________Tablet view*/
@@ -239,4 +267,168 @@ nav{
     border-left: 100px solid #004318;
     border-right: 300px solid #004318;
     height: auto;
+}
+
+/*_______________________________________________Footer*/
+
+footer {
+    width: 100%;
+    background-color:#F2F8E2;  
+    color:#004318; 
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+ }
+
+ .titel_footer {
+     font-size: 48px;
+     font-weight: 800;
+     margin: 10px 100px 10p;
+     color: #004318;
+ }
+
+ .newsletterbox {
+     width: 100%;  
+     height: 100px;
+     margin: 0 auto;
+     margin-top: 50px;
+     background-color: #004318;
+     border-radius: 25px;
+     display: flex;
+     align-items: center;
+
+}
+
+.text_newsletter {
+   text-align: left;
+   padding-left: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    flex: 1;
+   
+   }
+
+ .email {
+     width: 300px;
+     height: 30px;
+     border-radius: 25px;
+     border: none;
+     padding-left: 10px;
+ }
+
+ .email__and_button {
+     padding-right: 50px;
+ }
+
+ .footer__links {
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+ }
+
+   .center{
+       padding-left: 0  ;
+   }
+
+  a {
+   text-decoration: none;
+   font-size: 32px;
+   color: #004318;
+ }
+
+ .footer__links__left {
+   text-align: left;
+   padding-left: 40px;
+   width: 300px;
+   justify-content: left;
+ }
+
+.container_footer_links{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.footer__links__center{
+   width: 300px;    
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.adresse_footer_right {
+   justify-content: right;
+   padding-right: 40px;
+   width: 300px;
+}
+
+.adresse_footer_right p {
+       text-align: right;
+       font-size: 25px;
+       color: #004318;
+       text-decoration: none;
+   }
+
+.Trennbalken {
+     width: 70%;
+    } 
+
+.icons_footer {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   width: 25%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   align-items: center;
+}
+
+.icons_footer img{
+   margin: 0px 15px 0px 15px;
+}
+
+.Linkliste {
+   padding: 0;
+}
+
+.center_linkliste {
+   padding: 0;
+}
+
+.container_email {
+   display: flex;
+   background-color: white;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 25px;
+   padding-right: 15px;
+   padding-left: 5px;
+   height: 85%;
+   margin-right: 15px;
+}
+.pfeil {
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+.green-button-footer {
+   background-color: #008849;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 25px;
+   cursor: pointer;
+   font-size: 16px;
+   align-self: center;
+}
+
+.button_footer {
+   justify-content: center;
+   align-items: center;
+   height: 100%;
 }
