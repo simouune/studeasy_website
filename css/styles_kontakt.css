@@ -86,28 +86,34 @@ p{
 
      /*Header*/
 
-     header{
+      /*Header*/
+
+    header{
         padding: 0px 30px 0px 30px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
     }
 
     #logo{
-        width: 75px !important;
+        width: 180px !important;
         display: 1;
-    }
-
-    .nav_links{
-        gap: 0px !important;
-    }
-
-    .nav_links a{
-        font-size: 12px !important;
-        width: 90px !important;
-        padding: 0px !important; 
+        margin-top: 20px;
     }
 
     #start_button {
         display: none !important;
+    }
+
+    .header_container{
+    display: flex;
+    }
+
+    .nav_links {
+        display: flex;
+        justify-content: space-around;
     }
 
     /*Main*/
@@ -126,6 +132,56 @@ p{
         height: auto !important;
     }
 
+}
+
+ /*__________________________________________Tablet view*/
+
+ @media only screen and (max-width: 1200px) {
+    .header_container,
+    .block1_container,
+    .block2_container,  
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        max-width: 100% !important;
+    }
+
+     /*Header*/
+
+     header{
+        padding: 0px 30px 0px 30px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo{
+        width: 200px !important;
+        display: 1;
+        margin-top: 10px;
+    }
+
+    #start_button {
+        display: none !important;
+    }
+
+    .header_container{
+    display: flex;
+    }
+
+    .nav_links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*Main*/
+
+    .block1{
+        border-left: 40px solid #004318 !important;
+        border-right: 40px solid #004318 !important;
+        height: auto !important;
+    }
 }
 
 /*_______________________________________________Header*/
@@ -191,6 +247,10 @@ nav{
     border-left: 100px solid #004318;
     border-right: 300px solid #004318;
     height: auto;
+}
+
+.block1 h1{
+    padding-bottom: 20px;
 }
 
 form  {

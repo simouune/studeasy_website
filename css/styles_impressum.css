@@ -126,6 +126,55 @@ p{
 
 }
 
+/*__________________________________________Tablet view*/
+
+@media only screen and (max-width: 1200px) {
+    .header_container,
+    .block1_container,
+    .block2_container,  
+    .quartet_container,
+    .partner_container,
+    .footer_container{
+        max-width: 100% !important;
+    }
+
+     /*Header*/
+
+     header{
+        padding: 0px 30px 0px 30px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo{
+        width: 200px !important;
+        display: 1;
+        margin-top: 10px;
+    }
+
+    #start_button {
+        display: none !important;
+    }
+
+    .header_container{
+    display: flex;
+    }
+
+    .nav_links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*Main*/
+
+    .block1{
+        border-left: 40px solid #004318 !important;
+        border-right: 40px solid #004318 !important;
+    }
+}
+
 
 /*_______________________________________________Header*/
 
