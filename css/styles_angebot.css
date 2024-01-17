@@ -1,9 +1,9 @@
-*{
+* {
     font-family: "futura-pt", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: black;
-    font-style: normal; 
+    font-style: normal;
 }
 
 .green-button {
@@ -20,7 +20,7 @@
     font-size: 16px;
 }
 
-h1{
+h1 {
     color: white;
     text-align: center;
     font-size: 63px;
@@ -28,7 +28,15 @@ h1{
     margin: 10px;
 }
 
-h2{
+#Titel_Ausland {
+    color: white;
+    text-align: center;
+    font-size: 63px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+h2 {
     color: white;
     text-align: center;
     font-size: 48px;
@@ -36,7 +44,7 @@ h2{
     margin: 10px;
 }
 
-p{
+p {
     color: white;
     text-align: center;
     font-size: 32px;
@@ -44,63 +52,66 @@ p{
 
 a {
     font-size: 25px !important;
-  }
+}
 
-.oranger_titel{
+.oranger_titel {
     font-size: 32px;
     color: #CD7C46;
 
 }
+
 .header_container,
 .block1_container,
-.rezensionen_container,  
+.rezensionen_container,
 .quartet_container,
 .accordion_container,
-.footer_container{
+.footer_container {
     max-width: 1536px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+
 /*______________________________________________Mobile view*/
 
 /*Allgemein Einstellungen*/
 
 @media only screen and (max-width: 900px) {
+
     .header_container,
     .block1_container,
-    .rezensionen_container,  
+    .rezensionen_container,
     .quartet_container,
     .accordion_container,
-    .footer_container{
+    .footer_container {
         max-width: 100% !important;
     }
 
-    h2{
+    h2 {
         font-size: 35px;
     }
 
-    h1{
+    h1 {
         font-size: 35px !important;
     }
 
-    p{
+    p {
         font-size: 25px !important;
     }
 
-     /*Header*/
+    /*Header*/
 
-     header{
+    header {
         padding: 0px 30px 0px 30px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
 
-    #logo{
+    #logo {
         width: 180px !important;
         display: 1;
         margin-top: 20px;
@@ -110,8 +121,8 @@ a {
         display: none !important;
     }
 
-    .header_container{
-    display: flex;
+    .header_container {
+        display: flex;
     }
 
     .nav_links {
@@ -121,7 +132,7 @@ a {
 
     /*Main*/
 
-    .block1{
+    .block1 {
         border-left: 0px solid #008849 !important;
         border-right: 0px solid #008849 !important;
         padding: 40px !important;
@@ -129,25 +140,25 @@ a {
     }
 
     .zeile2,
-    .zeile3{
+    .zeile3 {
         height: 400px !important;
     }
 
     .block2,
     .block5,
-    .newsletterbox{
+    .newsletterbox {
         display: none !important;
     }
 
-    .uebertitel_rezensionen{
+    .uebertitel_rezensionen {
         padding: 50px 0px 50px 0px !important;
     }
 
-    .rezensionen_karussell{
+    .rezensionen_karussell {
         flex-wrap: wrap !important;
     }
 
-    .rezensionen_block{
+    .rezensionen_block {
         display: none !important;
     }
 
@@ -163,44 +174,45 @@ a {
     .footer__links__center {
         text-align: center !important;
         padding-left: 0px !important;
-      }
+    }
 
     .adresse_footer_right {
         padding-right: 0px !important;
     }
 
-      .adresse_footer_right p {
+    .adresse_footer_right p {
         text-align: center !important;
         font-size: 25px !important;
-        
+
     }
 
     #school-logo {
-       display: none !important;
+        display: none !important;
     }
 
-    .newsletterbox{
+    .newsletterbox {
         display: none !important;
     }
 
 
 }
 
- /*__________________________________________Tablet view*/
+/*__________________________________________Tablet view*/
 
- @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
+
     .header_container,
     .block1_container,
-    .block2_container,  
+    .block2_container,
     .quartet_container,
     .partner_container,
-    .footer_container{
+    .footer_container {
         max-width: 100% !important;
     }
 
-     /*Header*/
+    /*Header*/
 
-     header{
+    header {
         padding: 0px 30px 0px 30px !important;
         display: flex;
         flex-direction: column;
@@ -208,7 +220,7 @@ a {
         align-items: center;
     }
 
-    #logo{
+    #logo {
         width: 200px !important;
         display: 1;
         margin-top: 10px;
@@ -218,8 +230,8 @@ a {
         display: none !important;
     }
 
-    .header_container{
-    display: flex;
+    .header_container {
+        display: flex;
     }
 
     .nav_links {
@@ -230,10 +242,11 @@ a {
     /*Main*/
 
     .custom-block {
-        padding: 40px !important; /* Innenabstand des Blocks (optional) */
+        padding: 40px !important;
+        /* Innenabstand des Blocks (optional) */
     }
 
-    .block1{
+    .block1 {
         border-left: 0px solid #008849 !important;
         border-right: 0px solid #008849 !important;
         padding: 40px !important;
@@ -241,13 +254,13 @@ a {
     }
 
     .zeile2,
-    .zeile3{
+    .zeile3 {
         height: 400px !important;
     }
 
     .block2,
     .block5,
-    .newsletterbox{
+    .newsletterbox {
         display: none !important;
     }
 
@@ -256,7 +269,7 @@ a {
     }
 
     .custom-block2 {
-       padding: 40px !important;
+        padding: 40px !important;
 
     }
 
@@ -265,12 +278,12 @@ a {
     }
 
     #school-logo {
-       display: none !important;
+        display: none !important;
     }
 
     /*Footer*/
 
-    .newsletterbox{
+    .newsletterbox {
         display: none !important;
     }
 
@@ -278,7 +291,7 @@ a {
 
 /*_______________________________________________Header*/
 
-header{
+header {
     background-color: #FDFFF8;
     display: flex;
     justify-content: space-between;
@@ -288,7 +301,7 @@ header{
     top: 0;
 }
 
-#logo{
+#logo {
     width: 248px;
     display: 1;
 }
@@ -296,11 +309,11 @@ header{
 
 /*__________Navigation*/
 
-nav{
+nav {
     display: 4;
 }
 
-.nav_links{
+.nav_links {
     list-style-type: none;
     display: flex;
     padding: 0;
@@ -309,20 +322,21 @@ nav{
     gap: 20px;
 }
 
-.nav_links a{
+.nav_links a {
     display: block;
     box-sizing: border-box;
     height: 40px;
     width: 150px;
     padding: 5px 15px 5px 15px;
     text-decoration: none;
-    font-size: 24px;   
+    font-size: 24px;
     text-align: center;
-    color: #004317; 
+    color: #004317;
 }
 
-.nav_links a:hover, .aktiver_nav_link{
-    font-weight:900;
+.nav_links a:hover,
+.aktiver_nav_link {
+    font-weight: 900;
     color: #004318;
     margin-bottom: 5px;
 }
@@ -331,7 +345,7 @@ nav{
 
 /*_______________________________________________Zeile 1*/
 
-.block1{
+.block1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,7 +362,7 @@ nav{
 
 /*_______________________________________________Zeile 2*/
 
-.zeile2{
+.zeile2 {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -361,14 +375,14 @@ nav{
     flex: 50%;
 }
 
-.block2 img{
+.block2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 25px;
 }
 
-.block3{
+.block3 {
     display: flex;
     background-color: #004318;
     justify-content: center;
@@ -386,7 +400,7 @@ nav{
 
 /*_______________________________________________Zeile 3*/
 
-.zeile3{ 
+.zeile3 {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -394,7 +408,7 @@ nav{
     height: 600px;
 }
 
-.block4{
+.block4 {
     display: flex;
     background-color: #BEF542;
     justify-content: center;
@@ -409,12 +423,12 @@ nav{
 }
 
 
-.block5{
+.block5 {
     width: 100%;
     flex: 50%;
 }
 
-.block5 img{
+.block5 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -424,16 +438,16 @@ nav{
 
 /*_______________________________________________Accordion*/
 
-#accordion li{
+#accordion li {
     list-style-type: none;
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
 }
 
-#accordion li label{
+#accordion li label {
     padding: 10px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
@@ -441,19 +455,19 @@ nav{
     font-size: 28px;
     color: #004318;
     border-top: solid #004318 4px;
-    
+
 }
 
-#accordion li label span{
+#accordion li label span {
     transform: rotate(90deg);
     font-size: 32px;
 }
 
-#accordion label + input[type="radio"]{
+#accordion label+input[type="radio"] {
     display: none;
 }
 
-#accordion .content{
+#accordion .content {
     padding: 0px 10px;
     line-height: 26px;
     max-height: 0px;
@@ -461,24 +475,25 @@ nav{
     transition: max-height 0.5s;
 }
 
-#accordion label + input[type="radio"]:checked + .content{
+#accordion label+input[type="radio"]:checked+.content {
     max-height: 700px;
 }
 
-.content p{
+.content p {
     border-top: dotted #004318 2px;
     padding-top: 20px;
     color: #004318;
     font-size: 26px;
     text-align: left;
 }
+
 /*_____________________Übertitel*/
 
-.uebertitel_dropdown{
+.uebertitel_dropdown {
     font-weight: 900;
     color: #CD7C46;
     text-align: left;
-    font-size: 48px;    
+    font-size: 48px;
     margin: 100px 0px 42px 0px;
 }
 
@@ -486,7 +501,7 @@ nav{
 /*_____________________Untertitel Drop-down Menu*/
 
 
-.dropdown_menu_titel{
+.dropdown_menu_titel {
     display: flex;
     border-top: solid #004318 4px;
     border-bottom: dotted #004318 2px;
@@ -495,21 +510,21 @@ nav{
 }
 
 
-.dropdown_zahl{
+.dropdown_zahl {
     font-weight: 900;
     color: #004318;
     text-align: left;
     flex: 50px;
 }
 
-.untertitel_dropdown{
+.untertitel_dropdown {
     font-weight: 900;
     color: #004318;
     text-align: left;
     flex: 100%;
 }
 
-.dropdown_pfeil img{
+.dropdown_pfeil img {
     flex: 10%;
     text-align: right;
     height: 14px;
@@ -517,7 +532,7 @@ nav{
     align-items: center;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -526,7 +541,7 @@ ul{
 /*_______________________________________________Rezensionen*/
 
 
-.uebertitel_rezensionen{
+.uebertitel_rezensionen {
     color: #004318;
     font-weight: 900;
     padding-top: 100px;
@@ -535,7 +550,7 @@ ul{
     padding-right: 5%;
 }
 
-.rezensionen_karussell{
+.rezensionen_karussell {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -544,7 +559,7 @@ ul{
 }
 
 .rezensionen_block,
-.rezensionen_block_1{
+.rezensionen_block_1 {
     display: flex;
     background-color: white;
     justify-content: center;
@@ -560,29 +575,29 @@ ul{
     margin-bottom: 42px;
 }
 
-.rezensionen_name{
+.rezensionen_name {
     color: #004318;
     font-weight: 900;
     font-size: 28px;
 }
 
-.rezensionen_text{
+.rezensionen_text {
     color: #004318;
     font-weight: 500;
     font-size: 28px;
 }
 
-.rezensionen_link_kompletter_artikel{
+.rezensionen_link_kompletter_artikel {
     font-size: 20px;
     color: #004318;
     border-bottom: 4px solid #BEF542;
 }
 
-.rezensionen_link_kompletter_artikel a{
+.rezensionen_link_kompletter_artikel a {
     text-decoration: none;
 }
 
-.rezensionen_dots{
+.rezensionen_dots {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
@@ -593,167 +608,168 @@ ul{
 
 footer {
     width: 100%;
-    background-color:#F2F8E2;  
-    color:#004318; 
+    background-color: #F2F8E2;
+    color: #004318;
     text-align: center;
-    padding-top:10px;
-    padding-bottom:10px;
-    margin-top:10px;
- }
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
 
- .titel_footer {
-     font-size: 48px;
-     font-weight: 800;
-     margin: 10px 100px 10p;
-     color: #004318;
-     margin-top: 50px;
-     margin-bottom: 40px;
- }
+.titel_footer {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 10px 100px 10p;
+    color: #004318;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
- .newsletterbox {
-     width: 100%;  
-     height: 100px;
-     margin: 0 auto;
-     margin-top: 50px;
-     background-color: #004318;
-     border-radius: 25px;
-     display: flex;
-     align-items: center;
+.newsletterbox {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #004318;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
 
 }
 
 .text_newsletter {
-   text-align: left;
-   padding-left: 50px;
+    text-align: left;
+    padding-left: 50px;
     font-size: 32px;
     font-weight: 700;
     color: white;
     flex: 1;
-   
-   }
 
- .email {
-     width: 300px;
-     height: 30px;
-     border-radius: 25px;
-     border: none;
-     padding-left: 10px;
- }
-
- .email__and_button {
-     padding-right: 50px;
- }
-
- .footer__links {
-     display: flex;
-     width: 100%;
-     justify-content: space-between;
- }
-
-   .center{
-       padding-left: 0  ;
-   }
-
-  a {
-   text-decoration: none;
-   font-size: 32px;
-   font-weight: 500;
-   color: #004318;
- }
-
- .footer__links__left {
-   text-align: left;
-   padding-left: 40px;
-   padding-top: 25px;
-   width: 300px;
-   justify-content: left;
- }
-
-.container_footer_links{
-   padding-top: 10px;
-   padding-bottom: 10px;
 }
 
-.footer__links__center{
-   width: 300px;    
-   padding-top: 25px;
-   padding-bottom: 10px;
-   text-align: center;
+.email {
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 10px;
+}
+
+.email__and_button {
+    padding-right: 50px;
+}
+
+.footer__links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.center {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: #004318;
+}
+
+.footer__links__left {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 25px;
+    width: 300px;
+    justify-content: left;
+}
+
+.container_footer_links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer__links__center {
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .adresse_footer_right {
-   justify-content: right;
-   padding-right: 40px;
-   width: 300px;
+    justify-content: right;
+    padding-right: 40px;
+    width: 300px;
 }
 
 .adresse_footer_right p {
-       text-align: right;
-       font-size: 25px;
-        font-weight: 500;
-       color: #004318;
-       text-decoration: none;
-   }
-
-.Trennbalken {
-     width: 70%;
-    } 
-
-.icons_footer {
-   display: flex;
-   justify-content: center;
-   margin: 0 auto;
-   width: 25%;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   align-items: center;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 500;
+    color: #004318;
+    text-decoration: none;
 }
 
-.icons_footer img{
-   margin: 0px 15px 0px 15px;
+.Trennbalken {
+    width: 70%;
+}
+
+.icons_footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.icons_footer img {
+    margin: 0px 15px 0px 15px;
 }
 
 .Linkliste {
-   padding: 0;
+    padding: 0;
 }
 
 .center_linkliste {
-   padding: 0;
+    padding: 0;
 }
 
 .container_email {
-   display: flex;
-   background-color: white;
-   justify-content: space-between;
-   align-items: center;
-   border-radius: 25px;
-   padding-right: 15px;
-   padding-left: 5px;
-   height: 85%;
-   margin-right: 15px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding-right: 15px;
+    padding-left: 5px;
+    height: 85%;
+    margin-right: 15px;
 }
+
 .pfeil {
-   padding-right: 10px;
-   padding-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .green-button-footer {
-   background-color: #008849;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   border-radius: 25px;
-   cursor: pointer;
-   font-size: 16px;
-   align-self: center;
+    background-color: #008849;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
 }
 
 .button_footer {
-   justify-content: center;
-   align-items: center;
-   height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
