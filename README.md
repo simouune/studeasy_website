@@ -31,28 +31,28 @@ Sowie im HTML- als auch im CSS-Code, haben wir mittels Kommentaren eine Struktur
 
 /*Allgemein Einstellungen*/
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) { <br/>
    ... <br/>
    ... <br/>
    ... <br/>
    
-/*Header*/
+/*Header*/ <br/>
    ... <br/>
    ... <br/>
    ... <br/>
   
-/*Main*/
+/*Main*/ <br/>
    ... <br/>
    ... <br/>
    ... <br/>
 
-/*Footer*/
+/*Footer*/ <br/>
    ... <br/>
    ... <br/>
    ... <br/>
 }
 
- /*___________________________Tablet view*/
+ /*___________________________Tablet view*/ <br/>
  
    usw.
    
