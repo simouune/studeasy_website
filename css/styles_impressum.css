@@ -43,6 +43,10 @@ p{
     font-weight: 500;
 }
 
+a {
+    font-size: 25px !important;
+  }
+
 .oranger_titel{
     font-size: 32px;
     color: #CD7C46;
@@ -346,7 +350,7 @@ footer {
 
   a {
    text-decoration: none;
-   font-size: 25px;
+   font-size: 32px;
    font-weight: 500;
    color: #004318;
  }
