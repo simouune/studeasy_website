@@ -1,10 +1,10 @@
 /*_______________________________________________Allgemein Einstellungen*/
-*{
+* {
     font-family: "futura-pt", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: black;
-    font-style: normal; 
+    font-style: normal;
 }
 
 .green-button {
@@ -21,7 +21,7 @@
     font-size: 16px;
 }
 
-h1{
+h1 {
     color: white;
     text-align: center;
     font-size: 63px;
@@ -29,7 +29,7 @@ h1{
     margin: 10px;
 }
 
-h2{
+h2 {
     color: white;
     text-align: center;
     font-size: 48px;
@@ -37,7 +37,7 @@ h2{
     margin: 10px;
 }
 
-p{
+p {
     color: white;
     text-align: center;
     font-size: 32px;
@@ -45,9 +45,9 @@ p{
 
 a {
     font-size: 25px !important;
-  }
+}
 
-.oranger_titel{
+.oranger_titel {
     font-size: 32px;
     color: #CD7C46;
 
@@ -60,7 +60,7 @@ a {
 .block2_container,
 .quartet_container,
 .partner_container,
-.footer_container{
+.footer_container {
     max-width: 1536px;
     margin-left: auto;
     margin-right: auto;
@@ -72,40 +72,41 @@ a {
 
 /*Allgemein Einstellungen*/
 
-  @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
+
     .header_container,
     .block1_container,
-    .block2_container,  
+    .block2_container,
     .quartet_container,
     .partner_container,
-    .footer_container{
+    .footer_container {
         max-width: 100% !important;
     }
 
-    h2{
+    h2 {
         font-size: 35px;
     }
 
-    h1{
+    h1 {
         font-size: 35px !important;
     }
 
-    p{
+    p {
         font-size: 25px !important;
     }
 
-     /*Header*/
+    /*Header*/
 
-    header{
+    header {
         padding: 0px 30px 0px 30px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
 
-    #logo{
+    #logo {
         width: 180px !important;
         display: 1;
         margin-top: 20px;
@@ -115,8 +116,8 @@ a {
         display: none !important;
     }
 
-    .header_container{
-    display: flex;
+    .header_container {
+        display: flex;
     }
 
     .nav_links {
@@ -129,32 +130,33 @@ a {
     .block-title {
         font-size: 30px !important;
     }
-    
-    .oranger_titel{
+
+    .oranger_titel {
         font-size: 25px;
     }
 
     .custom-block {
-        padding: 40px !important; /* Innenabstand des Blocks (optional) */
+        padding: 40px !important;
+        /* Innenabstand des Blocks (optional) */
     }
 
     .block-subtitle,
-    .block-text-freemover{
+    .block-text-freemover {
         font-size: 25px !important;
     }
 
     .block-title2 {
         font-size: 35px !important;
-    }   
+    }
 
     .zeile2,
-    .zeile3{
+    .zeile3 {
         height: 400px !important;
     }
 
     .block2,
     .block5,
-    .newsletterbox{
+    .newsletterbox {
         display: none !important;
     }
 
@@ -163,7 +165,7 @@ a {
     }
 
     .custom-block2 {
-       padding: 40px !important;
+        padding: 40px !important;
 
     }
 
@@ -179,41 +181,42 @@ a {
     .footer__links__center {
         text-align: center !important;
         padding-left: 0px !important;
-      }
+    }
 
     .adresse_footer_right {
         padding-right: 0px !important;
     }
 
-      .adresse_footer_right p {
+    .adresse_footer_right p {
         text-align: center !important;
         font-size: 25px !important;
-        
+
     }
 
     #school-logo {
-       display: none !important;
+        display: none !important;
     }
 
 }
 
 
-  
-  /*__________________________________________Tablet view*/
 
-  @media only screen and (max-width: 1200px) {
+/*__________________________________________Tablet view*/
+
+@media only screen and (max-width: 1200px) {
+
     .header_container,
     .block1_container,
-    .block2_container,  
+    .block2_container,
     .quartet_container,
     .partner_container,
-    .footer_container{
+    .footer_container {
         max-width: 100% !important;
     }
 
-     /*Header*/
+    /*Header*/
 
-     header{
+    header {
         padding: 0px 30px 0px 30px !important;
         display: flex;
         flex-direction: column;
@@ -221,7 +224,7 @@ a {
         align-items: center;
     }
 
-    #logo{
+    #logo {
         width: 200px !important;
         display: 1;
         margin-top: 10px;
@@ -231,8 +234,8 @@ a {
         display: none !important;
     }
 
-    .header_container{
-    display: flex;
+    .header_container {
+        display: flex;
     }
 
     .nav_links {
@@ -243,17 +246,18 @@ a {
     /*Main*/
 
     .custom-block {
-        padding: 40px !important; /* Innenabstand des Blocks (optional) */
+        padding: 40px !important;
+        /* Innenabstand des Blocks (optional) */
     }
 
     .zeile2,
-    .zeile3{
+    .zeile3 {
         height: 400px !important;
     }
 
     .block2,
     .block5,
-    .newsletterbox{
+    .newsletterbox {
         display: none !important;
     }
 
@@ -262,7 +266,7 @@ a {
     }
 
     .custom-block2 {
-       padding: 40px !important;
+        padding: 40px !important;
 
     }
 
@@ -271,7 +275,7 @@ a {
     }
 
     #school-logo {
-       display: none !important;
+        display: none !important;
     }
 
     /*Footer*/
@@ -281,7 +285,7 @@ a {
 
 /*_______________________________________________Header*/
 
-header{
+header {
     background-color: #FDFFF8;
     display: flex;
     justify-content: space-between;
@@ -293,24 +297,24 @@ header{
 
 }
 
-#logo{
+#logo {
     width: 248px;
     display: 1;
 }
 
 .burger-menu,
-.burger-menu-btn{
+.burger-menu-btn {
     display: none;
 }
 
 
 /*__________Navigation*/
 
-nav{
+nav {
     display: 4;
 }
 
-.nav_links{
+.nav_links {
     list-style-type: none;
     display: flex;
     padding: 0;
@@ -319,20 +323,21 @@ nav{
     gap: 20px;
 }
 
-.nav_links a{
+.nav_links a {
     display: block;
     box-sizing: border-box;
     height: 40px;
     width: 150px;
     padding: 5px 15px 5px 15px;
     text-decoration: none;
-    font-size: 24px;   
+    font-size: 24px;
     text-align: center;
-    color: #004317; 
+    color: #004317;
 }
 
-.nav_links a:hover, .aktiver_nav_link{
-    font-weight:900;
+.nav_links a:hover,
+.aktiver_nav_link {
+    font-weight: 900;
     color: #004318;
     margin-bottom: 5px;
 }
@@ -344,10 +349,14 @@ nav{
     width: 100%;
     height: auto;
     border-radius: 25px;
-    background-image: url(/Images/homepage2.png);/* Hintergrundbild des Blocks */
-    background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Block abdeckt */
-            background-position: center; /* Zentriere das Bild im Block */
-    padding: 110px; /* Innenabstand des Blocks (optional) */
+    background-image: url(/img/homepage2.png);
+    /* Hintergrundbild des Blocks */
+    background-size: cover;
+    /* Das Bild wird so skaliert, dass es den gesamten Block abdeckt */
+    background-position: center;
+    /* Zentriere das Bild im Block */
+    padding: 110px;
+    /* Innenabstand des Blocks (optional) */
     padding-top: 80px;
     padding-bottom: 80px;
     box-sizing: border-box;
@@ -379,7 +388,8 @@ nav{
     height: auto;
     border-radius: 25px;
     background-color: #BEF542;
-   padding: 110px; /* Innenabstand des Blocks (optional) */
+    padding: 110px;
+    /* Innenabstand des Blocks (optional) */
     padding-top: 40px;
     padding-bottom: 40px;
     box-sizing: border-box;
@@ -404,8 +414,8 @@ nav{
     margin-bottom: 40px;
 }
 
- /* Stil für den Text */ 
-.block-text-freemover{
+/* Stil für den Text */
+.block-text-freemover {
     font-size: 32px;
     font-weight: medium;
     color: #004317;
@@ -415,7 +425,7 @@ nav{
 
 /*_______________________________________________Zeile 2*/
 
-.zeile2{
+.zeile2 {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -428,14 +438,14 @@ nav{
     flex: 50%;
 }
 
-.block2 img{
+.block2 img {
     width: 100%;
     height: 600px;
     object-fit: cover;
     border-radius: 25px;
 }
 
-.block3{
+.block3 {
     display: flex;
     background-color: #004318;
     justify-content: center;
@@ -451,7 +461,7 @@ nav{
 
 /*_______________________________________________Zeile 3*/
 
-.zeile3{ 
+.zeile3 {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -459,7 +469,7 @@ nav{
     height: 600px;
 }
 
-.block4{
+.block4 {
     display: flex;
     background-color: #BEF542;
     justify-content: center;
@@ -473,12 +483,12 @@ nav{
     flex: 50%;
 }
 
-.block5{
+.block5 {
     width: 100%;
     flex: 50%;
 }
 
-.block5 img{
+.block5 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -493,7 +503,8 @@ nav{
     display: block;
     border-radius: 25px;
     background-color: #F2F8E2;
-    padding: 110px; /* Innenabstand des Blocks (optional) */
+    padding: 110px;
+    /* Innenabstand des Blocks (optional) */
     padding-top: 20px;
     padding-bottom: 20px;
     box-sizing: border-box;
@@ -514,88 +525,88 @@ nav{
 /*_______________________________________________Footer*/
 
 footer {
-     width: 100%;
-     background-color:#F2F8E2;  
-     color:#004318; 
-     text-align: center;
-     padding-top:10px;
-     padding-bottom:10px;
-     margin-top:10px;
-  }
+    width: 100%;
+    background-color: #F2F8E2;
+    color: #004318;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
 
-  .titel_footer {
-      font-size: 48px;
-      font-weight: 800;
-      margin: 10px 100px 10p;
-      color: #004318;
-      margin-top: 50px;
-      margin-bottom: 40px;
-  }
+.titel_footer {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 10px 100px 10p;
+    color: #004318;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
-  .newsletterbox {
-      width: 100%;  
-      height: 100px;
-      margin: 0 auto;
-      margin-top: 50px;
-      background-color: #004318;
-      border-radius: 25px;
-      display: flex;
-      align-items: center;
+.newsletterbox {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #004318;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
 
- }
+}
 
- .text_newsletter {
+.text_newsletter {
     text-align: left;
     padding-left: 50px;
-     font-size: 32px;
-     font-weight: 700;
-     color: white;
-     flex: 1;
-    
-    }
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    flex: 1;
 
-  .email {
-      width: 300px;
-      height: 30px;
-      border-radius: 25px;
-      border: none;
-      padding-left: 10px;
-  }
+}
 
-  .email__and_button {
-      padding-right: 50px;
-  }
+.email {
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 10px;
+}
 
-  .footer__links {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-  }
+.email__and_button {
+    padding-right: 50px;
+}
 
-    .center{
-        padding-left: 0  ;
-    }
+.footer__links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 
-   a {
+.center {
+    padding-left: 0;
+}
+
+a {
     text-decoration: none;
     font-size: 32px;
     color: #004318;
-  }
+}
 
-  .footer__links__left {
+.footer__links__left {
     text-align: left;
     padding-left: 40px;
     width: 300px;
     justify-content: left;
-  }
+}
 
-.container_footer_links{
+.container_footer_links {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.footer__links__center{
-    width: 300px;    
+.footer__links__center {
+    width: 300px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -608,15 +619,15 @@ footer {
 }
 
 .adresse_footer_right p {
-        text-align: right;
-        font-size: 25px;
-        color: #004318;
-        text-decoration: none;
-    }
+    text-align: right;
+    font-size: 25px;
+    color: #004318;
+    text-decoration: none;
+}
 
 .Trennbalken {
-      width: 70%;
-     } 
+    width: 70%;
+}
 
 .icons_footer {
     display: flex;
@@ -628,7 +639,7 @@ footer {
     align-items: center;
 }
 
-.icons_footer img{
+.icons_footer img {
     margin: 0px 15px 0px 15px;
 }
 
@@ -651,6 +662,7 @@ footer {
     height: 85%;
     margin-right: 15px;
 }
+
 .pfeil {
     padding-right: 10px;
     padding-left: 10px;
