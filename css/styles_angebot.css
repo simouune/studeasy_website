@@ -270,7 +270,6 @@ p{
         display: none !important;
     }
 
-
 }
 
 /*_______________________________________________Header*/
@@ -658,6 +657,7 @@ footer {
  .footer__links__left {
    text-align: left;
    padding-left: 40px;
+   padding-top: 25px;
    width: 300px;
    justify-content: left;
  }
@@ -669,7 +669,7 @@ footer {
 
 .footer__links__center{
    width: 300px;    
-   padding-top: 10px;
+   padding-top: 25px;
    padding-bottom: 10px;
    text-align: center;
 }
