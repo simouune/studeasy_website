@@ -1,8 +1,9 @@
 # Unsere studeasy-Website
 
-Semesterarbeit Modul Interaktive Medien:
-Cédric Züllig, Simone Etter, Dario Casanova
-Klasse MMP23c2, Fachhochschule Graubünden
+Semesterarbeit im Modul "Interaktive Medien":<br/>
+Cédric Züllig, Simone Etter, Dario Casanova <br/>
+Klasse MMP23c2 <br/>
+Fachhochschule Graubünden <br/>
 18. Januar 2024
 
 ## Beschrieb unseres Start-ups
@@ -24,7 +25,7 @@ Da gab es unterschiedliche Präferenzen. Cédric hat vor allem sehr gerne mit Yo
 
 Alle unsere Contentseiten beinhalten einen Head sowie einen Body. Im Body enthalten sind Header, Body und Footer. Beim Body haben wir viel mit Flex-Boxen gearbeitet. Dies erschien uns am sinnvollsten, da wir oftmals Bilder und Texte nebeneinander darstellen wollten. 
 
-Sowie im HTML- als auch im CSS-Code, haben wir mittels Kommentaren eine Struktur erstellt, damit man auf einen Blick versteht, wo man sich im Code gerade befindet. Beispielsweise:
+Sowie im HTML- als auch im CSS-Code, haben wir mittels Kommentaren eine Struktur erstellt, damit man auf einen Blick versteht, wo man sich im Code gerade befindet. Beispielsweise hier ein CSS-Ausschnit :
 
 /*___________________________Mobile view*/
 
@@ -59,6 +60,4 @@ Sowie im HTML- als auch im CSS-Code, haben wir mittels Kommentaren eine Struktur
 
 ## Was war gut, was war schlecht und was haben wir gelernt?
 
-- Für den Grundaufbau sind wir sehr schnell vorangekommen. Es waren die Kleinigkeiten/Details, welche uns vor allem gegen Ende aufgefallen sind und sehr viel Zeit für die Bereinigung beansprucht haben.
-- Was ebenfalls viel Zeit beansprucht hat, waren die Media queries. Wir hatten nicht mehr auf dem Schirm, dass die Website ebenfalls responsive sein muss, daher mussten wir dies im Nachhinein noch einbauen.
-- Im Nachhinein hätten wir ein CSS-Main-Style-Sheet für den Footer und Header machen und diese mit allen Contentseiten verlinken sollen. Da wir das nicht gemacht haben, mussten wir Änderungen immer in allen Contenseiten übernehmen, was unnötige Gefahren für Fehlerquellen bot.
+Für den Grundaufbau sind wir sehr schnell vorangekommen. Es waren die Kleinigkeiten/Details, welche uns vor allem gegen Ende aufgefallen sind und sehr viel Zeit für die Bereinigung beansprucht haben. Was ebenfalls viel Zeit beansprucht hat, waren die Media queries. Wir hatten nicht mehr auf dem Schirm, dass die Website ebenfalls responsive sein muss, daher mussten wir dies im Nachhinein noch einbauen. Im Nachhinein hätten wir ein CSS-Main-Style-Sheet für den Footer und Header machen und diese mit allen Contentseiten verlinken sollen. Da wir das nicht gemacht haben, mussten wir Änderungen immer in allen Contenseiten übernehmen, was unnötige Gefahren für Fehlerquellen bot.
