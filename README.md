@@ -1,6 +1,6 @@
 # Unsere studeasy-Website
 
-Semesterarbeit im Modul "Interaktive Medien":<br/>
+Semesterarbeit im Modul "Interaktive Medien"<br/>
 Cédric Züllig, Simone Etter, Dario Casanova <br/>
 Klasse MMP23c2 <br/>
 Fachhochschule Graubünden <br/>
