@@ -108,7 +108,6 @@ a {
 
     #logo {
         width: 180px !important;
-        display: 1;
         margin-top: 20px;
     }
 
@@ -226,7 +225,6 @@ a {
 
     #logo {
         width: 200px !important;
-        display: 1;
         margin-top: 10px;
     }
 
@@ -299,7 +297,6 @@ header {
 
 #logo {
     width: 248px;
-    display: 1;
 }
 
 .burger-menu,
@@ -309,10 +306,6 @@ header {
 
 
 /*__________Navigation*/
-
-nav {
-    display: 4;
-}
 
 .nav_links {
     list-style-type: none;
@@ -409,7 +402,6 @@ nav {
 /* Stil für den Untertitel */
 .block-subtitle2 {
     font-size: 24px;
-    font-weight: medium;
     color: #004317;
     margin-bottom: 40px;
 }
@@ -417,7 +409,6 @@ nav {
 /* Stil für den Text */
 .block-text-freemover {
     font-size: 32px;
-    font-weight: medium;
     color: #004317;
 
 }
@@ -537,7 +528,7 @@ footer {
 .titel_footer {
     font-size: 48px;
     font-weight: 800;
-    margin: 10px 100px 10p;
+    margin: 10px 100px 10px;
     color: #004318;
     margin-top: 50px;
     margin-bottom: 40px;

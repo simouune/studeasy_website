@@ -1,10 +1,10 @@
 /*_______________________________________________Allgemein Einstellungen*/
-*{
+* {
     font-family: "futura-pt", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: black;
-    font-style: normal; 
+    font-style: normal;
 }
 
 .green-button {
@@ -21,15 +21,15 @@
     font-size: 16px;
 }
 
-h1{
+h1 {
     color: white;
     font-size: 63px;
     font-weight: 900;
     margin-bottom: 0;
-    
+
 }
 
-h2{
+h2 {
     color: white;
     text-align: center;
     font-size: 48px;
@@ -37,7 +37,7 @@ h2{
     margin: 10px;
 }
 
-p{
+p {
     color: white;
     font-size: 32px;
     font-weight: 500;
@@ -45,9 +45,9 @@ p{
 
 a {
     font-size: 25px !important;
-  }
+}
 
-.oranger_titel{
+.oranger_titel {
     font-size: 32px;
     color: #CD7C46;
 
@@ -57,7 +57,7 @@ a {
 
 .header_container,
 .block1_container,
-.footer_container{
+.footer_container {
     max-width: 1536px;
     margin-left: auto;
     margin-right: auto;
@@ -69,45 +69,45 @@ a {
 
 /*Allgemein Einstellungen*/
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+
     .header_container,
     .block1_container,
-    .footer_container{
+    .footer_container {
         max-width: 100% !important;
-    }   
+    }
 
-    h2{
+    h2 {
         font-size: 35px;
     }
 
-    h1{
+    h1 {
         font-size: 35px !important;
     }
 
-    p{
+    p {
         font-size: 25px !important;
     }
 
-     /*Header*/
+    /*Header*/
 
-     header{
+    header {
         padding: 0px 30px 0px 30px !important;
-        
+
     }
 
-    #logo{
+    #logo {
         width: 75px !important;
-        display: 1;
     }
 
-    .nav_links{
+    .nav_links {
         gap: 0px !important;
     }
 
-    .nav_links a{
+    .nav_links a {
         font-size: 12px !important;
         width: 90px !important;
-        padding: 0px !important; 
+        padding: 0px !important;
     }
 
     #start_button {
@@ -116,10 +116,9 @@ a {
 
     /*Main*/
 
-    .block1{
+    .block1 {
         display: flex;
         justify-content: center;
-        align-items: left;
         flex-direction: column;
         background: #004318;
         border-radius: 25px;
@@ -140,23 +139,23 @@ a {
     .footer__links__center {
         text-align: center !important;
         padding-left: 0px !important;
-      }
+    }
 
     .adresse_footer_right {
         padding-right: 0px !important;
     }
 
-      .adresse_footer_right p {
+    .adresse_footer_right p {
         text-align: center !important;
         font-size: 25px !important;
-        
+
     }
 
     #school-logo {
-       display: none !important;
+        display: none !important;
     }
 
-    .newsletterbox{
+    .newsletterbox {
         display: none !important;
     }
 
@@ -166,18 +165,19 @@ a {
 /*__________________________________________Tablet view*/
 
 @media only screen and (max-width: 1200px) {
+
     .header_container,
     .block1_container,
-    .block2_container,  
+    .block2_container,
     .quartet_container,
     .partner_container,
-    .footer_container{
+    .footer_container {
         max-width: 100% !important;
     }
 
-     /*Header*/
+    /*Header*/
 
-     header{
+    header {
         padding: 0px 30px 0px 30px !important;
         display: flex;
         flex-direction: column;
@@ -185,9 +185,8 @@ a {
         align-items: center;
     }
 
-    #logo{
+    #logo {
         width: 200px !important;
-        display: 1;
         margin-top: 10px;
     }
 
@@ -195,8 +194,8 @@ a {
         display: none !important;
     }
 
-    .header_container{
-    display: flex;
+    .header_container {
+        display: flex;
     }
 
     .nav_links {
@@ -206,14 +205,14 @@ a {
 
     /*Main*/
 
-    .block1{
+    .block1 {
         border-left: 40px solid #004318 !important;
         border-right: 40px solid #004318 !important;
     }
 
     /*Footer*/
 
-    .newsletterbox{
+    .newsletterbox {
         display: none !important;
     }
 
@@ -222,7 +221,7 @@ a {
 
 /*_______________________________________________Header*/
 
-header{
+header {
     background-color: #FDFFF8;
     display: flex;
     justify-content: space-between;
@@ -232,19 +231,14 @@ header{
     top: 0;
 }
 
-#logo{
+#logo {
     width: 248px;
-    display: 1;
 }
 
 
 /*__________Navigation*/
 
-nav{
-    display: 4;
-}
-
-.nav_links{
+.nav_links {
     list-style-type: none;
     display: flex;
     padding: 0;
@@ -253,30 +247,30 @@ nav{
     gap: 20px;
 }
 
-.nav_links a{
+.nav_links a {
     display: block;
     box-sizing: border-box;
     height: 40px;
     width: 150px;
     padding: 5px 15px 5px 15px;
     text-decoration: none;
-    font-size: 24px;   
+    font-size: 24px;
     text-align: center;
-    color: #004318; 
+    color: #004318;
 }
 
-.nav_links a:hover, .aktiver_nav_link{
-    font-weight:900;
+.nav_links a:hover,
+.aktiver_nav_link {
+    font-weight: 900;
     color: #004318;
     margin-bottom: 5px;
 }
 
 /*_______________________________________________Zeile 1*/
 
-.block1{
+.block1 {
     display: flex;
     justify-content: center;
-    align-items: left;
     flex-direction: column;
     background: #004318;
     border-radius: 25px;
@@ -290,167 +284,168 @@ nav{
 
 footer {
     width: 100%;
-    background-color:#F2F8E2;  
-    color:#004318; 
+    background-color: #F2F8E2;
+    color: #004318;
     text-align: center;
-    padding-top:10px;
-    padding-bottom:10px;
-    margin-top:10px;
- }
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
 
- .titel_footer {
-     font-size: 48px;
-     font-weight: 800;
-     margin: 10px 100px 10p;
-     color: #004318;
-     margin-top: 50px;
-     margin-bottom: 40px;
- }
+.titel_footer {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 10px 100px 10px;
+    color: #004318;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
- .newsletterbox {
-     width: 100%;  
-     height: 100px;
-     margin: 0 auto;
-     margin-top: 50px;
-     background-color: #004318;
-     border-radius: 25px;
-     display: flex;
-     align-items: center;
+.newsletterbox {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #004318;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
 
 }
 
 .text_newsletter {
-   text-align: left;
-   padding-left: 50px;
+    text-align: left;
+    padding-left: 50px;
     font-size: 32px;
     font-weight: 700;
     color: white;
     flex: 1;
-   
-   }
 
- .email {
-     width: 300px;
-     height: 30px;
-     border-radius: 25px;
-     border: none;
-     padding-left: 10px;
- }
-
- .email__and_button {
-     padding-right: 50px;
- }
-
- .footer__links {
-     display: flex;
-     width: 100%;
-     justify-content: space-between;
- }
-
-   .center{
-       padding-left: 0  ;
-   }
-
-  a {
-   text-decoration: none;
-   font-size: 32px;
-   font-weight: 500;
-   color: #004318;
- }
-
- .footer__links__left {
-   text-align: left;
-   padding-left: 40px;
-   padding-top: 9px;
-   width: 300px;
-   justify-content: left;
- }
-
-.container_footer_links{
-   padding-top: 10px;
-   padding-bottom: 10px;
 }
 
-.footer__links__center{
-   width: 300px;    
-   padding-top: 9px;
-   padding-bottom: 9px;
-   text-align: center;
+.email {
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 10px;
+}
+
+.email__and_button {
+    padding-right: 50px;
+}
+
+.footer__links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.center {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: #004318;
+}
+
+.footer__links__left {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 9px;
+    width: 300px;
+    justify-content: left;
+}
+
+.container_footer_links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer__links__center {
+    width: 300px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
 }
 
 .adresse_footer_right {
-   justify-content: right;
-   padding-right: 40px;
-   width: 300px;
+    justify-content: right;
+    padding-right: 40px;
+    width: 300px;
 }
 
 .adresse_footer_right p {
-       text-align: right;
-       font-size: 25px;
-       font-weight: 500;
-       color: #004318;
-       text-decoration: none;
-   }
-
-.Trennbalken {
-     width: 70%;
-    } 
-
-.icons_footer {
-   display: flex;
-   justify-content: center;
-   margin: 0 auto;
-   width: 25%;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   align-items: center;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 500;
+    color: #004318;
+    text-decoration: none;
 }
 
-.icons_footer img{
-   margin: 0px 15px 0px 15px;
+.Trennbalken {
+    width: 70%;
+}
+
+.icons_footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.icons_footer img {
+    margin: 0px 15px 0px 15px;
 }
 
 .Linkliste {
-   padding: 0;
+    padding: 0;
 }
 
 .center_linkliste {
-   padding: 0;
+    padding: 0;
 }
 
 .container_email {
-   display: flex;
-   background-color: white;
-   justify-content: space-between;
-   align-items: center;
-   border-radius: 25px;
-   padding-right: 15px;
-   padding-left: 5px;
-   height: 85%;
-   margin-right: 15px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding-right: 15px;
+    padding-left: 5px;
+    height: 85%;
+    margin-right: 15px;
 }
+
 .pfeil {
-   padding-right: 10px;
-   padding-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .green-button-footer {
-   background-color: #008849;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   border-radius: 25px;
-   cursor: pointer;
-   font-size: 16px;
-   align-self: center;
+    background-color: #008849;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
 }
 
 .button_footer {
-   justify-content: center;
-   align-items: center;
-   height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
